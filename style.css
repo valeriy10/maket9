@@ -33,6 +33,10 @@ header {
 .buttons {
   position: relative;
   top: 425px;
+  font-size: 14px;
+  
+  text-transform: uppercase;
+  left: 726px;
 }
 
 
