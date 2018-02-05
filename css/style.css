@@ -5,6 +5,7 @@
   display: flex;
   margin: auto;
   background-color: #ffffff;
+  min-width: 961px;
   max-width: 1920px;
 }
 
@@ -44,6 +45,24 @@ header {
 }
 
 
+.store_buttons {
+  position: relative;
+  top: 425px;
+  left: 0px;
+  width: 768px;
+  height: 6290px;
+  z-index: 102;
+}
+
+.download_on_the_appstore {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 768px;
+  z-index: 95;
+}
+
+
 .athlets {
   height: 960px;
   background: url(../images/footballer.png) no-repeat left;
@@ -55,12 +74,41 @@ header {
 
 
 
-.top {
-  width: 1920px;
-  height: 900px;
+.player {
+  height: 960px;
+  background: url(../images/player.png) no-repeat right;
+}
 
-  background-color: #0a0e34;
-  color: #ffffff;
+.rectongle_player {
+  position: relative;
+  border-radius: 2px;
+  background-color: #000000;
+  left: 323px;
+  top: 20px;
+  width: 22px;
+  height: 5px;
+  z-index: 68;
+}
+
+.rectangle_3_player {
+  background-color: rgb( 10, 14, 52 );
+  opacity: 0.039;
+  position: absolute;
+  left: -5px;
+  top: 2362px;
+  width: 1925px;
+  height: 244px;
+  z-index: 51;
+}
+
+.rectangle_4_player {
+  background-color: rgb( 10, 14, 52 );
+  position: absolute;
+  left: -5px;
+  top: 2609px;
+  width: 1925px;
+  height: 268px;
+  z-index: 53;
 }
 
 
