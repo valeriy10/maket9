@@ -1,9 +1,8 @@
 
 .html {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  margin: auto;
+/*   display: flex;
+  margin: auto; */
+
   background-color: #ffffff;
   min-width: 961px;
   max-width: 1920px;
@@ -17,12 +16,25 @@
 /*end blok dlya soderjimogo*/
 
 
+
 header {
-  height: 960px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 100%;
   background-color: #0a0e34;
   color: #ffffff;
-  font-size: 90px;
+  font-size: 40px;
   background: url(../images/foot1.jpg);
+  border: 2px solid green;
+}
+
+.icon1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .surface_icon {
@@ -30,37 +42,51 @@ header {
   height: 94px;
   margin: auto;
   fill: #ffffff;
-
 }
 
 
-.label {
-  position: relative;
-  top: 200px;
+
+.label_main {
+/*   position: relative; */
+/*   top: 200px; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.buttons {
-  position: relative;
-  top: 425px;
+.label_main h1 {
+  font-size: 90px;
+  margin: 0;
 }
+
+.label_main span {
+  display: inline-block;
+  font-size: 90px;
+  font-weight: 900;
+}
+
 
 
 .store_buttons {
-  position: relative;
-  top: 425px;
-  left: 0px;
-  width: 768px;
-  height: 6290px;
-  z-index: 102;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .download_on_the_appstore {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 768px;
-  z-index: 95;
+  border-radius: 38px;
+  background-color: rgb( 94, 66, 176 );
+  box-shadow: 8px 13.856px 24px 0px rgb( 10, 14, 52 );
+  position: relative;
+/*   left: 621px;
+  top: 773px; */
+/*   width: 311px; */
+  height: 77px;
 }
+
+
 
 
 .athlets {
