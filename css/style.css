@@ -130,7 +130,7 @@ header {
 .rectangle_3_player {
   background-color: rgb( 10, 14, 52 );
   opacity: 0.039;
-  position: absolute;
+  position: relative;
   left: -5px;
   top: 2362px;
   width: 1925px;
@@ -140,7 +140,7 @@ header {
 
 .rectangle_4_player {
   background-color: rgb( 10, 14, 52 );
-  position: absolute;
+  position: relative;
   left: -5px;
   top: 2609px;
   width: 1925px;
