@@ -27,7 +27,7 @@ header {
   background-color: #0a0e34;
   color: #ffffff;
   font-size: 40px;
-  background: url(../images/foot1.jpg);
+/*   background: url(../images/foot1.jpg); */
   border: 2px solid green;
 }
 
@@ -91,7 +91,7 @@ header {
 
 .athlets {
   height: 960px;
-  background: url(../images/footballer.png) no-repeat left;
+/*   background: url(../images/footballer.png) no-repeat left; */
   font-size: 88px;
   color: #e7e7e7;
 }
@@ -102,7 +102,7 @@ header {
 
 .player {
   height: 960px;
-  background: url(../images/player.png) no-repeat right;
+/*   background: url(../images/player.png) no-repeat right; */
 }
 
 .rectongle_player {
