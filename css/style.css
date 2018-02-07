@@ -91,11 +91,16 @@ header {
 
 
 .athlets {
-  height: 960px;
+  display: flex;
+  flex-direction: column;
+  align-center: center;
+  
+  height: 100vh;
 /*   background: url(../images/footballer.png) no-repeat left; */
   font-size: 88px;
   color: #e7e7e7;
 }
+
 
 
 
