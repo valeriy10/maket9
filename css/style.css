@@ -104,6 +104,7 @@ header {
 .l_athlets {
   background-color: #ccc;
   height: 33vh;
+  border: 2px solid green;
 }
 
 
