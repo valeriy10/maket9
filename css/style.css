@@ -76,6 +76,7 @@ header {
 }
 
 .download_on_the_appstore {
+  margin: 10px;
   font-size: 24px;
   vertical-align:middle;
   border-radius: 38px;
