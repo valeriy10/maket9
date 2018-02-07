@@ -95,6 +95,7 @@ header {
   
   height: 100vh;
 /*   background: url(../images/footballer.png) no-repeat left; */
+  background-color: #ccc;
   font-size: 88px;
   color: #e7e7e7;
 }
