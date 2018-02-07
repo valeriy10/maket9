@@ -88,8 +88,6 @@ header {
 }
 
 
-
-
 .athlets {
   display: flex;
   flex-direction: column;
@@ -99,6 +97,11 @@ header {
 /*   background: url(../images/footballer.png) no-repeat left; */
   font-size: 88px;
   color: #e7e7e7;
+}
+
+
+l_athlets {
+  height: 33%;
 }
 
 
