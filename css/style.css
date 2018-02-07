@@ -91,6 +91,7 @@ header {
 .athlets {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-center: center;
   
   height: 100vh;
