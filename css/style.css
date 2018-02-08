@@ -4,13 +4,13 @@
   font-size: 10px;
   background-color: #ffffff;
   min-width: 961px;
-  max-width: 1920px;  
+  max-width: 1920px;
 }
 
 /*begin blok dlya soderjimogo*/
 .container {
-  width: 1530px;  
-  margin: 0 auto;  
+  width: 1530px;
+  margin: 0 auto;
 }
 /*end blok dlya soderjimogo*/
 
@@ -53,13 +53,13 @@ header {
 }
 
 .label_main h1 {
-  font-size: 9rem;
+  font-size: 90px;
   margin: 0;
 }
 
 .label_main span {
   display: inline-block;
-  font-size: 9rem;
+  font-size: 90px;
   font-weight: 900;
 }
 
@@ -93,39 +93,60 @@ header {
 
 .athlets {
   display: flex;
-  justify-content: space-between;
-/*   align-center: center; */
-  background-color: #000;
-  background: #000;
-  
-  height: 100vh;
-  background-color: #ccc;
+  flex-direction: column;
+/*   justify-content: space-between; */
+  align-items: center;
+  background: url(../images/footballer.png) no-repeat;
+  height: 960px;
   font-size: 8.8rem;
   color: #e7e7e7;
   border: 2px solid green;
+  position: relative;
+  z-index: 100;
 }
 
-
-.left_athlets {
-  border: 2px solid green;
-/*   background: url(../images/footballer.png) no-repeat; */
-  <img src="../images/footballer.png" alt="">
+.athlets img {
+  position: absolute;
+  z-index: 105;
 }
 
-.right_athlets {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  border: 2px solid green;
-}
 
 .l_athlets {
 
   justify-content: center;
   align-center: center;
-  background-color: #ccc;
-/*   height: 33vh; */
+/*   background-color: #ccc; */
   border: 2px solid green;
+/*   margin-left: 400px; */
+  width: 100%;
+  margin: 0;
+  position: relative;
+  z-index: 70;
+}
+
+.l_athlets span {
+  border: 2px solid white;
+  margin-left: 700px;
+}
+
+.white {
+  height: 44%;
+  position: relative;
+  z-index: 67;
+}
+
+.grey {
+  height: 28%;
+  background-color: grey;
+  position: relative;
+   z-index: 66;
+}
+
+.blue {
+  height: 28%;
+  background-color: #5e42b0;
+  position: relative;
+  z-index: 65;
 }
 
 
