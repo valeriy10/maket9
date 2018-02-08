@@ -25,7 +25,7 @@ header {
   height: 960px;
   background-color: #0a0e34;
   color: #ffffff;
-  font-size: 40px;
+  font-size: 4rem;
 /*   background: url(../images/foot1.jpg); */
   border: 2px solid green;
 }
@@ -56,13 +56,13 @@ header {
 }
 
 .label_main h1 {
-  font-size: 90px;
+  font-size: 9rem;
   margin: 0;
 }
 
 .label_main span {
   display: inline-block;
-  font-size: 90px;
+  font-size: 9rem;
   font-weight: 900;
 }
 
@@ -83,10 +83,10 @@ header {
 
   margin: 25px;
   margin-bottom: 110px;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: bold;
   text-transform: uppercase;
-  border-radius: 38px;
+  border-radius: 3.8rem;
   background-color: rgb( 94, 66, 176 );
   box-shadow: 8px 13.856px 24px 0px rgb( 10, 14, 52 );
   position: relative;
