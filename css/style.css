@@ -108,6 +108,7 @@ header {
 .athlets img {
   position: absolute;
   z-index: 105;
+  flex: 0;
 }
 
 
