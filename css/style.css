@@ -90,8 +90,8 @@ header {
   background-color: rgb( 94, 66, 176 );
   box-shadow: 8px 13.856px 24px 0px rgb( 10, 14, 52 );
   position: relative;
-  width: 311px;
-  height: 77px;
+  width: 31.1rem;
+  height: 7.7rem;
 }
 
 
@@ -103,7 +103,7 @@ header {
 
   height: 100vh;
   background-color: #ccc;
-  font-size: 88px;
+  font-size: 8.8rem;
   color: #e7e7e7;
   border: 2px solid green;
 }
