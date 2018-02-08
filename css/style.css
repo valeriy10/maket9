@@ -96,7 +96,7 @@ header {
   flex-direction: column;
 /*   justify-content: space-between; */
   align-items: center;
-  background: url(../images/footballer.png) no-repeat;
+/*   background: url(../images/footballer.png) no-repeat; */
   height: 960px;
   font-size: 8.8rem;
   color: #e7e7e7;
