@@ -95,7 +95,8 @@ header {
   display: flex;
   justify-content: space-between;
 /*   align-center: center; */
-
+  background-color: #fff;
+  
   height: 100vh;
   background-color: #ccc;
   font-size: 8.8rem;
