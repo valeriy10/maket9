@@ -43,9 +43,6 @@ header {
 
 
 .label_main {
-/*   position: relative; */
-/*   top: 200px; */
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -82,12 +79,12 @@ header {
   font-size: 1.4rem;
   font-weight: bold;
   text-transform: uppercase;
-  border-radius: 3.8rem;
+  border-radius: 38px;
   background-color: rgb( 94, 66, 176 );
   box-shadow: 8px 13.856px 24px 0px rgb( 10, 14, 52 );
   position: relative;
-  width: 31.1rem;
-  height: 7.7rem;
+  width: 311px;
+  height: 77px;
 }
 
 
@@ -95,7 +92,7 @@ header {
   display: flex;
   flex-direction: column;
 /*   justify-content: space-between; */
-  align-items: center;
+/*   align-items: center; */
 /*   background: url(../images/footballer.png) no-repeat; */
   height: 960px;
   font-size: 8.8rem;
@@ -105,10 +102,11 @@ header {
   z-index: 100;
 }
 
+
+
 .athlets img {
   position: absolute;
   z-index: 105;
-  flex: 0;
 }
 
 
@@ -152,50 +150,100 @@ header {
 
 
 
-
-
-
 .player {
+  display: flex;
+  flex-direction: column;
   height: 960px;
-/*   background: url(../images/player.png) no-repeat right; */
-}
-
-.rectongle_player {
+  font-size: 8.8rem;
+  color: #e7e7e7;
+  border: 2px solid green;
   position: relative;
-  border-radius: 2px;
-  background-color: #000000;
-  left: 323px;
-  top: 20px;
-  width: 22px;
-  height: 5px;
-  z-index: 68;
+  z-index: 100;
 }
 
-.rectangle_3_player {
-  background-color: rgb( 10, 14, 52 );
-  opacity: 0.039;
+
+
+.player img {
   position: relative;
-  left: -5px;
-  top: 2362px;
-  width: 1925px;
-  height: 244px;
-  z-index: 51;
+  z-index: 105;
 }
 
-.rectangle_4_player {
-  background-color: rgb( 10, 14, 52 );
+
+.l_player {
+  justify-content: center;
+  align-center: center;
+/*   background-color: #ccc; */
+  border: 2px solid green;
+/*   margin-left: 400px; */
+  width: 100%;
+  margin: 0;
   position: relative;
-  left: -5px;
-  top: 2609px;
-  width: 1925px;
-  height: 268px;
-  z-index: 53;
+  z-index: 70;
+}
+
+.l_player span {
+  border: 2px solid white;
+/*   margin-left: 700px; */
+}
+
+.white {
+  height: 44%;
+  position: relative;
+  z-index: 67;
+}
+
+.grey {
+  height: 28%;
+  background-color: grey;
+  position: relative;
+   z-index: 66;
+}
+
+.blue {
+  height: 28%;
+  background-color: #5e42b0;
+  position: relative;
+  z-index: 65;
 }
 
 
 
-.footer {
-  width: 1920px;
+
+
+
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
   height: 960px;
   background-color: #0a0e34;
+  color: #ffffff;
+  font-size: 4rem;
+/*   background: url(../images/foot1.jpg); */
+  border: 2px solid green;
+}
+
+
+.label_footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.label_footer h1 {
+  font-size: 90px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: 250px;
+}
+
+.label_footer span {
+  display: inline-block;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 900;
 }
