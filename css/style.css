@@ -16,7 +16,7 @@
 }
 
   header {
-    background: url(../images/foot2.png);
+    background: url(../images/foot2.png) no-repeat;
   }
 
   .backg {
@@ -38,7 +38,7 @@
 
 
 header {
-  background: url(../images/foot1.png);
+  background: url(../images/foot1.png) no-repeat;
 }
 
 .backg {
@@ -236,7 +236,7 @@ header {
 
 
 footer {
-  background: url(../images/photofooter.png);
+  background: url(../images/photofooter.png) no-repeat;
 }
 
 
