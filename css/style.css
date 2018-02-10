@@ -112,7 +112,9 @@ header {
 }
 
 @media (max-width: 641px) {
-  flex-wrap: wrap;
+  .store_buttons {
+    flex-wrap: wrap;
+  }
 }
 
 .download_on_the_appstore {
