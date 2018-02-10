@@ -252,12 +252,6 @@ footer::before {
 }
 
 footer {
-/*   background: url(../images/photofooter.png) no-repeat;  <div class="layer_footer"> */
-}
-
-
-
-footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -268,8 +262,7 @@ footer {
   color: #ffffff;
   font-size: 4rem;
   background: url(../images/photofooter.png) no-repeat;
-/*   background-size: cover; */
-/*   background-color: #0a0e34; */
+  background-size: cover;
   border: 2px solid green;
   position: relative;
 }
