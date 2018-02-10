@@ -17,6 +17,7 @@
 
   header {
     background: url(../images/foot2.png) no-repeat;
+    background-size: cover;
   }
 }
 
@@ -28,6 +29,7 @@
   margin: 0 auto;
 }
 /*end blok dlya soderjimogo*/
+
 
 header::before {
   position: absolute;
@@ -43,8 +45,7 @@ header {
 }
 
 header {
-  min-width: 961px;
-  max-width: 1920px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -63,7 +64,7 @@ header {
   justify-content: space-around;
   align-items: center;
   position: relative;
-  margin-top: 45px;
+  margin-top: 4.5rem;
   padding: 0;
 }
 
@@ -90,7 +91,7 @@ header {
 .label_main span {
   display: inline-block;
   font-size: 90px;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 
