@@ -16,12 +16,7 @@
 }
 
   header {
-/*     background: url(../images/foot2.png) no-repeat; */
-  }
-
-  .backg {
-/*     opacity: 0;
-    background-color: 	transparent; */
+    background: url(../images/foot2.png) no-repeat;
   }
 }
 
@@ -51,6 +46,8 @@ header {
 }
 
 header {
+  min-width: 961px;
+  max-width: 1920px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
