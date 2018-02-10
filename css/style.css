@@ -22,13 +22,10 @@
 
 
 
-
 /*begin blok dlya soderjimogo*/
 .container {
   width: 1530px;
   margin: 0 auto;
-  background-color: #0a0e34;
-  opacity: 0.6;
 }
 /*end blok dlya soderjimogo*/
 
@@ -56,6 +53,7 @@ header {
   color: #ffffff;
   font-size: 4rem;
   background: url(../images/foot1.png) no-repeat;
+  background-size: cover;
 /*   background-color: #0a0e34;
   opacity: 0.8; */
 }
