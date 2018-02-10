@@ -16,16 +16,17 @@
 }
 
   header {
-    background: url(../images/foot2.png) no-repeat;
+/*     background: url(../images/foot2.png) no-repeat; */
   }
 
   .backg {
-    opacity: 0;
-    background-color: 	transparent;
+/*     opacity: 0;
+    background-color: 	transparent; */
   }
-
-
 }
+
+
+
 
 /*begin blok dlya soderjimogo*/
 .container {
@@ -36,28 +37,37 @@
 }
 /*end blok dlya soderjimogo*/
 
-
-header {
-  background: url(../images/foot1.png) no-repeat;
+header::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 960px;
+  background-color: #0a0e34;
+  opacity: 0.7;
 }
 
-.backg {
+header {
+/*   background: url(../images/foot1.png) no-repeat; <div class="backg"> */
+}
+
+header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-
   height: 960px;
   color: #ffffff;
   font-size: 4rem;
-  background-color: #0a0e34;
-  opacity: 0.8;
+  background: url(../images/foot1.png) no-repeat;
+/*   background-color: #0a0e34;
+  opacity: 0.8; */
 }
 
 .icon1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: relative;
   margin-top: 45px;
   padding: 0;
 }
@@ -70,6 +80,7 @@ header {
 
 
 .label_main {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
