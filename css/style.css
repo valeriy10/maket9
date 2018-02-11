@@ -304,6 +304,12 @@ header {
   height: 730px;
 }
 
+@media (max-width: 640px) {
+  .be_active {
+    flex-wrap: wrap;
+  }
+}
+
 .be_text {
   display: flex;
   flex-direction: column;
