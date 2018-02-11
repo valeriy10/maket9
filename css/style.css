@@ -29,6 +29,18 @@ html {
 
 
 
+@media (max-width: 640px) {
+  header {
+    background: url(../images/foot320.jpg) no-repeat;
+  }
+
+
+  footer {
+    background: url(../images/photofooter320.jpg) no-repeat;
+  }
+}
+
+
 
 
 
@@ -118,7 +130,7 @@ header {
   align-items: center;
 }
 
-@media (max-width: 641px) {
+@media (max-width: 640px) {
   .store_buttons {
     flex-wrap: wrap;
   }
