@@ -306,18 +306,31 @@ header {
 }
 
 @media (max-width: 640px) {
+
   .be_active {
     flex-direction: column;
     flex-wrap: wrap;
     height: auto;
   }
+
+  .be_active h2 {
+    margin-top: 0;
+  }
+
+  .be_active p {
+    margin-bottom: 0;
+  }
+
+  .be_text {
+    justify-content: flex-start;
+  }
+
 }
 
 .be_text {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
 }
 
 .be_active h2 {
