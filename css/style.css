@@ -133,6 +133,7 @@ header {
 
 @media (max-width: 640px) {
   .store_buttons {
+    flex-direction: column;
     flex-wrap: wrap;
   }
 }
@@ -306,6 +307,7 @@ header {
 
 @media (max-width: 640px) {
   .be_active {
+    flex-direction: column;
     flex-wrap: wrap;
     height: auto;
   }
@@ -403,4 +405,4 @@ footer {
 
 .iconf {
   margin-bottom: 50px;
-} 
+}
