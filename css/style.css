@@ -82,7 +82,7 @@ header {
   background-size: cover;
   
   margin: 0 auto;
-  max-widh: 1530px;
+  max-width: 1530px;
 }
 
 .icon1 {
@@ -188,6 +188,9 @@ header {
   border: 2px solid green;
   position: relative;
   z-index: 100;
+  
+  margin: 0 auto;
+  max-width: 1530px;
 }
 
 
