@@ -50,13 +50,13 @@ html {
   }
 
   header {
-    background: url(../images/foot320.png) no-repeat;
+    background-image: url(../images/foot320.png) no-repeat;
     width: 100%;
     max-width: 640px;
   }
 
   footer {
-    background: url(../images/photofooter320.jpg) no-repeat;
+    background-image: url(../images/photofooter320.jpg) no-repeat;
   }
 }
 
