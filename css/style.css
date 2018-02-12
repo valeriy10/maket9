@@ -1,10 +1,14 @@
 
-html {
-  padding: 0;
-  margin: 0;
-}
 
-@media (min-width: 641px) and (max-width: 960px) {
+/*begin blok dlya soderjimogo*/
+.container {
+  width: 1530px;
+  margin: 0 auto;
+}
+/*end blok dlya soderjimogo*/
+
+
+/* @media (min-width: 641px) and (max-width: 960px) {
   .body {
     font-size: 8px;
     background-color: #ffffff;
@@ -15,11 +19,20 @@ html {
     background: url(../images/foot2.png) no-repeat;
     background-size: cover;
   }
+} */
+
+
+
+
+
+html {
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
 }
 
-
-@media (min-width: 961px) {          
-  .body {
+@media (min-width: 961px) {
+  .html {
     display: flex;
     margin: auto;
     font-size: 10px;
@@ -31,29 +44,21 @@ html {
 
 
 @media (max-width: 640px) {
+  .html {
+    font-size: 8px;
+    max-width: 640px;
+  }
+
   header {
-    background: url(../images/foot320.jpg) no-repeat;
+    background: url(../images/foot320.png) no-repeat;
+    width: 100%;
     max-width: 640px;
   }
 
   footer {
     background: url(../images/photofooter320.jpg) no-repeat;
   }
-  
-  .body {
-    font-size: 6px;
-    max-width: 640px;
-  } 
 }
-
-
-
-/*begin blok dlya soderjimogo*/
-.container {
-  width: 1530px;
-  margin: 0 auto;
-}
-/*end blok dlya soderjimogo*/
 
 
 
@@ -67,16 +72,12 @@ header::before {
 }
 
 header {
-/*   background: url(../images/foot1.png) no-repeat; <div class="backg"> */
-}
-
-header {
   width: 100%;
+  height: 960px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 960px;
   color: #ffffff;
   font-size: 4rem;
   background: url(../images/foot1.png) no-repeat;
@@ -85,7 +86,7 @@ header {
 
 .icon1 {
   display: flex;
-  justify-content: space-around;
+/*   justify-content: space-around; */
   align-items: center;
   position: relative;
   margin-top: 4.5rem;
@@ -100,7 +101,6 @@ header {
 
 .apple1 {
   width: 35px;
-/*   margin: auto; */
   fill: #ffffff;
 }
 
@@ -114,13 +114,13 @@ header {
 }
 
 .label_main h1 {
-  font-size: 90px;
+  font-size: 9rem;
   margin: 0;
 }
 
 .label_main span {
   display: inline-block;
-  font-size: 90px;
+  font-size: 9rem;
   font-weight: 700;
 }
 
@@ -133,21 +133,34 @@ header {
 
 
 @media (max-width: 640px) {
+  .label_main h1 {
+    font-size: 28px;
+}
+
+  .label_main span {
+    font-size: 28px;
+    font-weight: 700;
+    width: 240px;
+  }
+
+
   .store_buttons {
     display: flex;
-    flex-direction: column;
-    
-    width: 600px;
-    
-    justify-content: center;
-    align-items: center;
-/*     flex-wrap: wrap; */
+    flex-direction: row;
+/*    justify-content: center;
+    align-items: center; */
+    flex-wrap: wrap;
   }
-  
+
   .download_on_the_appstore {
-    
+    width: 280px;
+    height: 35px;
+    margin: 0;
+    margin-bottom: 83px;
   }
 }
+
+
 
 
 .download_on_the_appstore {
@@ -173,6 +186,35 @@ header {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* begin athlets */
 .athlets {
   display: flex;
@@ -186,7 +228,7 @@ header {
   border: 2px solid green;
   position: relative;
   z-index: 100;
-  
+
   margin: 0 auto;
   max-width: 1530px;
 }
