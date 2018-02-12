@@ -80,6 +80,9 @@ header {
   font-size: 4rem;
   background: url(../images/foot1.png) no-repeat;
   background-size: cover;
+  
+  margin: 0 auto;
+  max-widh: 1530px;
 }
 
 .icon1 {
@@ -130,10 +133,13 @@ header {
   align-items: center;
 }
 
+
 @media (max-width: 640px) {
   .store_buttons {
     display: flex;
     flex-direction: column;
+    
+    width: 600px;
     
     justify-content: center;
     align-items: center;
@@ -141,7 +147,7 @@ header {
   }
   
   .download_on_the_appstore {
-    width: 300px;
+    
   }
 }
 
