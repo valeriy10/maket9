@@ -187,34 +187,6 @@ header {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* begin athlets */
 .athlets {
   display: flex;
@@ -356,6 +328,43 @@ header {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .be_active {
   display: flex;
   width: 100%;
@@ -366,12 +375,13 @@ header {
 
   .be_active {
     flex-direction: column;
+    justify-content: flex-start;
 /*     flex-wrap: wrap; */
-    height: auto;
+    height: 560px;
   }
 
   .be_active h2 {
-    margin-top: 0;
+    margin: 0;
   }
 
   .be_active p {
@@ -379,7 +389,9 @@ header {
   }
 
   .be_text {
+    height: 210px;
     justify-content: flex-start;
+    align-items: flex-start;
   }
 
 }
@@ -421,6 +433,10 @@ header {
   width: 100%;
   height: 730px;
 }
+
+
+
+
 
 
 
