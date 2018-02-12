@@ -41,7 +41,7 @@ html {
   
   .body {
     font-size: 6px;
-    max-width: 320px;
+    max-width: 640px;
   } 
 }
 
@@ -80,8 +80,6 @@ header {
   font-size: 4rem;
   background: url(../images/foot1.png) no-repeat;
   background-size: cover;
-/*   background-color: #0a0e34;
-  opacity: 0.8; */
 }
 
 .icon1 {
@@ -126,7 +124,6 @@ header {
 }
 
 
-
 .store_buttons {
   display: flex;
   justify-content: center;
@@ -135,14 +132,19 @@ header {
 
 @media (max-width: 640px) {
   .store_buttons {
+    display: flex;
     flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
 /*     flex-wrap: wrap; */
   }
   
   .download_on_the_appstore {
-    width: 90%;
+    width: 300px;
   }
 }
+
 
 .download_on_the_appstore {
   display: flex;
