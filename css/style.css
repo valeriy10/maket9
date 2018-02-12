@@ -18,7 +18,7 @@ html {
 }
 
 
-@media (min-width: 961px) {          }
+@media (min-width: 961px) {          
   .body {
     display: flex;
     margin: auto;
@@ -27,14 +27,13 @@ html {
     min-width: 961px;
     max-width: 1920px;
   }
-
+}
 
 
 @media (max-width: 640px) {
   header {
     background: url(../images/foot320.jpg) no-repeat;
   }
-
 
   footer {
     background: url(../images/photofooter320.jpg) no-repeat;
@@ -45,8 +44,6 @@ html {
     max-width: 320px;
   } 
 }
-
-
 
 
 
