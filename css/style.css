@@ -138,6 +138,10 @@ header {
     flex-direction: column;
 /*     flex-wrap: wrap; */
   }
+  
+  .download_on_the_appstore {
+    width: 90%;
+  }
 }
 
 .download_on_the_appstore {
