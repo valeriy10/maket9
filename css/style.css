@@ -33,6 +33,7 @@ html {
 @media (max-width: 640px) {
   header {
     background: url(../images/foot320.jpg) no-repeat;
+    max-width: 640px;
   }
 
   footer {
