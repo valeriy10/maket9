@@ -39,6 +39,11 @@ html {
   footer {
     background: url(../images/photofooter320.jpg) no-repeat;
   }
+  
+  .body {
+    font-size: 6px;
+    max-width: 768px;
+  } 
 }
 
 
