@@ -189,79 +189,64 @@ header {
 .athlets {
   display: flex;
   flex-direction: column;
-/*   justify-content: space-between; */
-/*   align-items: center; */
-/*   background: url(../images/footballer.png) no-repeat; */
-  width: 100%;
-  height: 960px;
+  justify-content: space-between;
+  position: relative;
+/*   width: 100%; */
+/*   max-width: 1530px; */
+/*   height: 960px; */
   color: #e7e7e7;
   border: 2px solid green;
+/*   margin: 0 auto; */
+}
+
+
+.athlets_white {
+  display: flex;
   position: relative;
-  z-index: 100;
-
-  margin: 0 auto;
-  max-width: 1530px;
-}
-
-
-
-.athlets img {
-  position: absolute;
-  z-index: 105;
-}
-
-
-.l_athlets {
-  diaplay: flex;
-  justify-content: center;
-  align-center: center;
-  border: 2px solid green;
   width: 100%;
-  /*   margin-left: 400px; */
-/*   margin-left: 200px; */
-  position: relative;
-  z-index: 70;
-  text-align: right;
+  height: 450px;
+  background-color: white;
 }
 
-/* .l_athlets h2, h3, span {
-  width: 40%;
-} */
+.athlets_white img {
+  position: absolute;
+}
 
-.l_athlets h2 {
+.athlets_grey {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 250px;
+  background-color: grey;
+}
+
+.athlets_blue {
+  display: flex;
+  flex-direction: column;
+/*   position: relative; */
+  width: 100%;
+  height: 250px;
+  background-color: #5e42b0;
+}
+
+
+
+.athlets h2 {
   font-size: 80px;
 }
 
-.l_athlets h3 {
+.athlets h3 {
   font-size: 36px;
 }
 
-.l_athlets span {
+.athlets span {
   font-size: 20px;
-  border: 2px solid white;
-  margin-left: 20px;
-  width: 400px;
+/*   border: 2px solid white; */
+/*   margin-left: 20px; */
+/*   width: 400px; */
 }
 
-.white {
-  height: 44%;
-  position: relative;
-  z-index: 67;
-}
 
-.grey {
-  height: 28%;
-  background-color: grey;
-  position: relative;
-   z-index: 66;
-}
-
-.blue {
-  height: 28%;
-  background-color: #5e42b0;
-  position: relative;
-  z-index: 65;
-}
 
 
 
@@ -275,14 +260,14 @@ header {
   color: #e7e7e7;
   border: 2px solid green;
   position: relative;
-  z-index: 100;
+/*   z-index: 100; */
 }
 
 
 
 .player img {
-  position: relative;
-  z-index: 105;
+/*   position: relative; */
+/*   z-index: 105; */
 }
 
 
@@ -295,7 +280,7 @@ header {
   width: 100%;
   margin: 0;
   position: relative;
-  z-index: 70;
+/*   z-index: 70; */
 }
 
 .l_player span {
@@ -306,21 +291,21 @@ header {
 .white {
   height: 44%;
   position: relative;
-  z-index: 67;
+/*   z-index: 67; */
 }
 
 .grey {
   height: 28%;
   background-color: grey;
   position: relative;
-   z-index: 66;
+/*    z-index: 66; */
 }
 
 .blue {
   height: 28%;
   background-color: #5e42b0;
   position: relative;
-  z-index: 65;
+/*   z-index: 65; */
 }
 
 
@@ -365,42 +350,28 @@ header {
 
 .be_active {
   display: flex;
+  align-items: center;
   width: 100%;
-  height: 730px;
-}
-
-@media (max-width: 640px) {
-
-  .be_active {
-/*     flex-direction: column;
-    justify-content: flex-start; */
-    
-    display: flex:
-    flex-wrap: wrap;
-    width: 45%;
-  }
-
-  .be_active h2 {
-    margin: 0;
-  }
-
-  .be_active p {
-    margin-bottom: 0;
-  }
-
-  .be_text {
-    height: 210px;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-
+/*   height: 730px; */
 }
 
 .be_text {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 50%;
 }
+
+.img_active, source {
+  display: block;
+  max-width: 100%;
+}
+
+.course__preview {
+  flex: none;
+}
+
+
 
 .be_active h2 {
   font-size: 88px;
@@ -423,10 +394,46 @@ header {
   margin-bottom: 215px;
 }
 
-.be_active picture {
-/*   height: 730px; */
-  width: 100%;
+
+
+@media (max-width: 640px) {
+  .course__preview {
+    display: flex;
+  }
+
+
+  .be_active {
+/*     display: flex:
+    flex-wrap: wrap; */
+
+    flex: none;
+  }
+
+  .be_active h2 {
+    margin: 0;
+  }
+
+  .be_active p {
+    margin-bottom: 0;
+  }
+
+  .be_text {
+    height: 210px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 .find_contact {
   display: flex;
