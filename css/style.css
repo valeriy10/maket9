@@ -323,32 +323,6 @@ header {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .be_active {
   display: flex;
   align-items: center;
@@ -499,4 +473,98 @@ footer {
 
 .iconf {
   margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+body {
+  font-size: 1.8rem;
+}
+
+@media (min-width: 768px) {
+
+  html{
+    font-size: 62.5%;
+  }
+}
+
+@media (max-width: 767px) {
+
+  html{
+    font-size: 45.138888%;
+  }
+}
+
+
+/* p {
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 0;
+} */
+
+p:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+
+/* .courses {
+  padding: 5rem 2rem;
+} */
+
+
+.course {
+  box-shadow: 0 2px 7px 0 hsla(0,0%,4%,.05), 3px 27px 54px -34px rgba(0,0,0,.47);
+}
+
+.course:not(:first-of-type) {
+/*   margin-top: 5rem; */
+}
+
+
+
+.course__img, source {
+  display: block;
+  max-width: 100%;
+}
+
+
+.course__name {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-size: 2.8rem;
+}
+
+@media (min-width: 641px) {
+
+  .course {
+    display: flex;
+    align-items: center;
+  }
+
+  .course__preview {
+    flex: none;
+    width: 50%;
+  }
+}
+
+
+@media (min-width: 961px) {
+
+  .course {
+    max-width: 1920px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .course__info {
+    width: 50%;
+/*     padding: 30px 60px; */
+  }
 }
