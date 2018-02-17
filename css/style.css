@@ -210,7 +210,8 @@ header {
 
 .athlets_white img {
   position: absolute;
-  left: 60%;
+/*   left: 60%; */
+  padding-left: 40%;
 }
 
 .athlets_grey {
