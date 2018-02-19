@@ -159,8 +159,6 @@ header {
 }
 
 
-
-
 .download_on_the_appstore {
   display: flex;
   justify-content: center;
@@ -232,7 +230,6 @@ header {
 }
 
 
-
 .athlets h2 {
   font-size: 80px;
 }
@@ -251,8 +248,6 @@ header {
 
 
 
-
-
 .player {
   display: flex;
   flex-direction: column;
@@ -262,7 +257,6 @@ header {
   color: #e7e7e7;
   border: 2px solid green;
   position: relative;
-/*   z-index: 100; */
 }
 
 
@@ -272,35 +266,29 @@ header {
 /*   z-index: 105; */
 }
 
-
 .l_player {
   justify-content: center;
   align-center: center;
 /*   background-color: #ccc; */
   border: 2px solid green;
-/*   margin-left: 400px; */
   width: 100%;
   margin: 0;
   position: relative;
-/*   z-index: 70; */
 }
 
 .l_player span {
   border: 2px solid white;
-/*   margin-left: 700px; */
 }
 
 .white {
   height: 44%;
   position: relative;
-/*   z-index: 67; */
 }
 
 .grey {
   height: 28%;
   background-color: grey;
   position: relative;
-/*    z-index: 66; */
 }
 
 .blue {
@@ -321,14 +309,10 @@ header {
 
 
 
-
-
-
 .be_active {
   display: flex;
   align-items: center;
   width: 100%;
-/*   height: 730px; */
 }
 
 .be_text {
@@ -346,8 +330,6 @@ header {
 .course__preview {
   flex: none;
 }
-
-
 
 .be_active h2 {
   font-size: 88px;
@@ -371,7 +353,6 @@ header {
 }
 
 
-
 @media (max-width: 640px) {
   .course__preview {
     display: flex;
@@ -381,7 +362,6 @@ header {
   .be_active {
 /*     display: flex:
     flex-wrap: wrap; */
-
     flex: none;
   }
 
@@ -399,10 +379,6 @@ header {
     align-items: flex-start;
   }
 }
-
-
-
-
 
 
 
@@ -489,18 +465,13 @@ footer {
 
 
 
-
-
-
-
-
 body {
   font-size: 1.8rem;
 }
 
 @media (min-width: 768px) {
 
-  html{
+  html {
     font-size: 62.5%;
   }
 }
@@ -512,22 +483,9 @@ body {
   }
 }
 
-
-/* p {
-  line-height: 1.5;
-  margin-top: 0;
-  margin-bottom: 0;
-} */
-
 p:not(:last-child) {
   margin-bottom: 2rem;
 }
-
-
-/* .courses {
-  padding: 5rem 2rem;
-} */
-
 
 .course {
   box-shadow: 0 2px 7px 0 hsla(0,0%,4%,.05), 3px 27px 54px -34px rgba(0,0,0,.47);
