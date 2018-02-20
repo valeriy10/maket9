@@ -17,7 +17,21 @@
 
       </div>
 
-      <img src="images/footballer.png" alt="">
+      <picture class="course__preview">
+      <source
+        media="(max-width: 640px)"
+        srcset="images/footballer320.jpg">
+      <source
+        media="(min-width: 641px) and (max-width: 960px)"
+        srcset="images/footballer768.jpg">
+
+      <source
+        media="(min-width: 961px)"
+        srcset="images/footballer.png">
+
+			<img class="course__img" src="images/footballer.png" alt="">
+		</picture>
+<!--       <img src="images/footballer.png" alt=""> -->
 
 
   </div>
