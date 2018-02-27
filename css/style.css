@@ -3,7 +3,7 @@
 /*begin blok dlya soderjimogo*/
 .container {
   width: 1530px;
-  margin: 0 auto;  
+  margin: 0 auto;
 }
 /*end blok dlya soderjimogo*/
 
@@ -26,7 +26,7 @@
 
 
 html {
-  padding: 0;  
+  padding: 0;
   margin: 0;
   font-size: 10px;
 }
@@ -211,7 +211,7 @@ header {
   width: 100%;
 /*   max-width: 1530px; */
 /*   height: 960px; */
-  color: #e7e7e7;
+  color: #000000;
   border: 2px solid green;
 }
 
@@ -229,6 +229,13 @@ header {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+
+.player_preview {
+  position: absolute;
+  top: 0;
+  right: 300px;
 }
 
 .athlets_middle, .athlets_middle_text {
@@ -253,15 +260,21 @@ header {
 
 
 .athlets h2 {
-  font-size: 80px;
+  font-size: 88px;
+  color: #e7e7e7;
   text-transform: uppercase;
 }
 .athlets h3 {
   font-size: 36px;
+  color: #c1c1c1;
   text-transform: uppercase;
 }
 .athlets span {
   font-size: 20px;
+}
+
+.athlets_blue span {
+  color: #ffffff;
 }
 
 
@@ -279,6 +292,14 @@ header {
 
   .athlets_white, .athlets_grey, .athlets_blue {
     flex-direction: column;
+  }
+
+  .athlets_white {
+    background-color: #fafafa;
+  }
+
+  .athlets_white_mobile {
+    height: 306px;
   }
 
   .athlets_white picture {
@@ -437,6 +458,13 @@ header {
     justify-content: flex-start;
     align-items: flex-start;
   }
+}
+
+
+.player_white picture {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 
