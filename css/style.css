@@ -1,9 +1,19 @@
 
+@font-face {
+    font-family: OpenSans-Bold; /* Гарнитура шрифта */
+    src: local(OpenSans-Bold), url(fonts/OpenSans-Bold.ttf); /* Для остальных браузеров */
+}
+
+@font-face {
+    font-family: OpenSans-Regular; /* Гарнитура шрифта */
+    src: local(OpenSans-Regular), url(fonts/OpenSans-Regular.ttf); /* Для остальных браузеров */
+}
+
 
 /*begin blok dlya soderjimogo*/
 .container {
   width: 1530px;
-  margin: 0 auto;    
+  margin: 0 auto;
 }
 /*end blok dlya soderjimogo*/
 
@@ -28,6 +38,7 @@
 html {
   padding: 0;
   margin: 0;
+  font-family: OpenSans-Bold;
   font-size: 10px;
 }
 
@@ -226,7 +237,7 @@ header {
 }
 
 /* .athlets_white picture { } */
-  .course__preview {
+  .athlets_preview {
   position: absolute;
   top: 0;
   left: 0;
@@ -323,7 +334,7 @@ header {
     font-size: 1.5em;
   }
 }
-
+/* end athlets */
 
 
 
@@ -340,12 +351,6 @@ header {
   position: relative;
 }
 
-
-
-.player img {
-/*   position: relative; */
-/*   z-index: 105; */
-}
 
 .l_player {
   justify-content: center;
@@ -376,7 +381,6 @@ header {
   height: 28%;
   background-color: #5e42b0;
   position: relative;
-/*   z-index: 65; */
 }
 
 
@@ -418,9 +422,6 @@ header {
   font-weight: bold;
   text-transform: uppercase;
   margin-top: 260px;
-  -moz-transform: matrix( 0.90802474337351,0,0,0.90802474337351,0,0);
-  -webkit-transform: matrix( 0.90802474337351,0,0,0.90802474337351,0,0);
-  -ms-transform: matrix( 0.90802474337351,0,0,0.90802474337351,0,0);
   margin-left: 0;
 }
 
@@ -465,6 +466,22 @@ header {
   top: 0;
   right: 0;
 }
+
+
+.course {
+  position: relative;
+}
+
+.kv_center {
+width: 168px;
+height: 155px;
+position: absolute;
+left: calc(50% - 168px/2);
+top: calc(50% - 155px/2);
+background-color: #5e42b0;
+}
+
+
 
 
 
@@ -676,35 +693,7 @@ p:not(:last-child) {
 </header>
 
 
-
-<div class="athlets">
-  <div>
-      <img src="images/footballer.png" alt="">
-  </div>
-
-  <div class="athlets_white">
-    <div>
-      <h2>ATHLETS</h2>
-      <h3>Connection</h3>
-      <span>Connect with coaches directly, you can ping coaches to view profile.</span>
-    </div>
-
-
-  </div>
-
-  <div class="athlets_grey">
-    <h3>Collaboration</h3>
-    <span>Work with other student athletes to  increase visability. When you share and like other players videos it will increase your visability as a player. This is the team work aspect to Surface 1.
-    </span>
-  </div>
-
-  <div class="athlets_blue">
-    <h3>Growth</h3>
-    <span>Resources and tools for you to get better as a student Athelte.
-Access to training classes, tutor sessions, etc</span>
-  </div>
-
-</div> */
+*/
 
 
 
@@ -731,78 +720,10 @@ Access to training classes, tutor sessions, etc</span>
 
 
 
+/*
 
 
-/* <article class="course">
-		<picture class="course__preview">
-      <source
-        media="(max-width: 640px)"
-        srcset="images/be_active320.jpg">
-      <source
-        media="(min-width: 641px)"
-        srcset="images/be_active.jpg">
-			<img class="course__img" src="images/be_active.jpg" alt="">
-		</picture>
 
-		<div class="course__info">
-			<h3 class="course__name">Be active</h3>
-			<div class="course__description">
-				<p>
-					Post videos with your skills,
-Like and follow others to be
-more popular.
-				</p>
-			</div>
-		</div>
-</article>
-
-
-<article class="course">
-  <div class="course__info">
-			<h3 class="course__name">Find contact</h3>
-			<div class="course__description">
-				<p>
-					Contact others to find right coach
-or athlete you are looking for.
-				</p>
-			</div>
-		</div>
-
-		<picture class="course__preview">
-      <source
-        media="(max-width: 640px)"
-        srcset="images/find_contact320.jpg">
-      <source
-        media="(min-width: 641px)"
-        srcset="images/find_contact.jpg">
-			<img class="course__img" src="images/find_contact.jpg" alt="">
-		</picture>
-</article>
-
-
-<article class="course">
-		<picture class="course__preview">
-      <source
-        media="(max-width: 640px)"
-        srcset="images/work_it320.jpg">
-      <source
-        media="(min-width: 641px)"
-        srcset="images/work_it.jpg">
-			<img class="course__img" src="images/work_it.jpg" alt="">
-		</picture>
-
-		<div class="course__info">
-			<h3 class="course__name">Work it</h3>
-			<div class="course__description">
-				<p>
-					Enjoy being a student athlete, the recruiting
-process can be overwhelming, we want to
-make this a enjoyable experience.d right coach
-or athlete you are looking for.
-				</p>
-			</div>
-		</div>
-</article>
 
 
 
