@@ -31,22 +31,23 @@
   }
 } */
 
-
+h1, h2, h3 {
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+}
 
 
 
 html {
-  padding: 0;
-  margin: 0;
-  font-family: OpenSans-Bold;
-  font-size: 10px;
+/*   font-size: 10px; */
 }
 
 @media (min-width: 961px) {
   .html {
     display: flex;
     margin: auto;
-    font-size: 10px;
+/*     font-size: 10px; */
     background-color: #ffffff;
     min-width: 961px;
     max-width: 1920px;
@@ -56,7 +57,7 @@ html {
 
 @media (max-width: 640px) {
   .html {
-    font-size: 8px;
+/*     font-size: 8px; */
     max-width: 640px;
   }
 
@@ -72,7 +73,7 @@ html {
 
 @media (min-width: 641px) and (max-width: 960px) {
   .html {
-    font-size: 8px;
+/*     font-size: 8px; */
     min-width: 768px;
     max-width: 960px;
   }
@@ -114,7 +115,6 @@ header {
 
 .icon1 {
   display: flex;
-/*   justify-content: space-around; */
   align-items: center;
   position: relative;
   margin-top: 4.5rem;
@@ -158,6 +158,7 @@ header {
   justify-content: center;
   align-items: center;
 }
+
 
 
 @media (max-width: 640px) {
@@ -221,34 +222,38 @@ header {
   position: relative;
   width: 100%;
 /*   max-width: 1530px; */
-/*   height: 960px; */
   color: #000000;
-  border: 2px solid green;
+/*   border: 2px solid green; */
 }
 
+.athlets_white_mobile {
+  display: flex;
+  flex-direction: row-rewerse;
+  width: 100%;
+  position: relative;
+  height: 174px;
+  background-color: white;
+}
 
 .athlets_white {
   display: flex;
   flex-direction: row-rewerse;
   width: 100%;
-  position: relative;
-  height: 450px;
+  height: 231px;
   background-color: white;
 }
 
-/* .athlets_white picture { } */
-  .athlets_preview {
+.athlets_preview {
   position: absolute;
   top: 0;
   left: 0;
 }
-
-
 .player_preview {
   position: absolute;
   top: 0;
   right: 0;
 }
+
 
 .athlets_middle, .athlets_middle_text {
   width: 50%;
@@ -258,12 +263,21 @@ header {
   display: flex;
   flex-direction: row-rewerse;
   width: 100%;
-  height: 250px;
   margin-right: 92px;
 }
 
 .athlets_grey {
-  background-color: f6f4fa;
+  background-color: #f6f4fa;
+  font-family: OpenSans-Bold, Tahoma;
+  height: 256px;
+}
+
+.athlets_blue {
+  height: 297px;
+}
+
+.athlets_white_mobile div, .athlets_white div, .athlets_grey div, .athlets_blue div {
+  margin-left: auto;
 }
 
 .athlets_blue {
@@ -271,8 +285,10 @@ header {
 }
 
 
+
 .athlets h2 {
   font-size: 88px;
+  font-weight: bold;
   color: #e7e7e7;
   text-transform: uppercase;
 }
@@ -297,21 +313,50 @@ header {
 }
 
 
+/* start mobile 640 */
 @media (max-width: 640px) {
+  .athlets_preview {
+    top: 80px;
+    left: calc(50% - 86px);
+  }
+
+  .player_preview {
+    top: 85px;
+    left: calc(50% - 156px);
+  }
+
   .athlets_middle, .athlets_middle_text {
     width: 100%;
   }
 
-  .athlets_white, .athlets_grey, .athlets_blue {
+  .athlets_white_mobile, .athlets_white, .athlets_grey, .athlets_blue {
     flex-direction: column;
-  }
-
-  .athlets_white {
-    background-color: #fafafa;
   }
 
   .athlets_white_mobile {
     height: 306px;
+  }
+
+  .athlets_white {
+    background-color: #fafafa;
+    height: 213px;
+  }
+  .athlets_white h3 {
+    margin-top: 80px;
+    line-height: 1;
+  }
+
+  .athlets_grey {
+    background-color: #f5f4f9;
+    height: 262px;
+  }
+  .athlets_grey h3, .athlets_blue h3 {
+    line-height: 1;
+    margin-top: 57px;
+  }
+
+  .athlets_blue {
+    height: 208px;
   }
 
   .athlets_white picture {
@@ -323,7 +368,9 @@ header {
   }
 
   .athlets h2 {
+    margin-top: 25px;
     font-size: 5.5em;
+    line-height: 35px;
   }
 
   .athlets h3 {
@@ -334,152 +381,123 @@ header {
     font-size: 1.5em;
   }
 }
+/* end mobile 640 */
 /* end athlets */
 
 
 
 
 
-.player {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 960px;
-  font-size: 8.8rem;
-  color: #e7e7e7;
-  border: 2px solid green;
-  position: relative;
+
+
+
+
+body {
+  font-size: 1.8rem;
 }
 
+@media (min-width: 768px) {
 
-.l_player {
-  justify-content: center;
-  align-center: center;
-/*   background-color: #ccc; */
-  border: 2px solid green;
-  width: 100%;
-  margin: 0;
-  position: relative;
-}
-
-.l_player span {
-  border: 2px solid white;
-}
-
-.white {
-  height: 44%;
-  position: relative;
-}
-
-.grey {
-  height: 28%;
-  background-color: grey;
-  position: relative;
-}
-
-.blue {
-  height: 28%;
-  background-color: #5e42b0;
-  position: relative;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.be_active {
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
-
-.be_text {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 50%;
-}
-
-.img_active, source {
-  display: block;
-  max-width: 100%;
-}
-
-.course__preview, .player_preview {
-  flex: none;
-}
-
-.be_active h2 {
-  font-size: 88px;
-  color: rgba( 193, 193, 193, 0.4 );
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-top: 260px;
-  margin-left: 0;
-}
-
-.be_active p {
-  width: 300px;
-  font-size: 24px;
-  font-family: "Times New Roman";
-  color: rgb( 0, 0, 0 );
-  line-height: 1.167;
-  margin-bottom: 215px;
-}
-
-
-@media (max-width: 640px) {
-  .course__preview {
-    display: flex;
-  }
-
-
-  .be_active {
-    flex: none;
-  }
-
-  .be_active h2 {
-    margin: 0;
-  }
-
-  .be_active p {
-    margin-bottom: 0;
-  }
-
-  .be_text {
-    height: 210px;
-    justify-content: flex-start;
-    align-items: flex-start;
+  html {
+    font-size: 62.5%;
   }
 }
 
+@media (max-width: 767px) {
 
-.player_white picture {
-  position: absolute;
-  top: 0;
-  right: 0;
+  html {
+    font-size: 45.138888%;
+  }
 }
-
 
 .course {
   position: relative;
 }
 
 .kv_center {
-width: 168px;
-height: 155px;
-position: absolute;
-left: calc(50% - 168px/2);
-top: calc(50% - 155px/2);
-background-color: #5e42b0;
+  width: 168px;
+  height: 155px;
+  position: absolute;
+  left: calc(50% - 168px/2);
+  top: calc(50% - 155px/2);
+  background-color: #5e42b0;
 }
+
+
+p:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.course {
+  box-shadow: 0 2px 7px 0 hsla(0,0%,4%,.05), 3px 27px 54px -34px rgba(0,0,0,.47);
+}
+
+.course:not(:first-of-type) {
+/*   margin-top: 5rem; */
+}
+
+
+.course__img, source {
+  display: block;
+  max-width: 100%;
+}
+
+
+.course__name {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-size: 2.8rem;
+}
+
+@media (min-width: 961px) {
+
+  .course {
+    display: flex;
+    align-items: center;
+  }
+
+  .course__preview {
+    flex: none;
+    width: 50%;
+  }
+}
+
+
+@media (min-width: 961px) {
+
+  .course {
+    max-width: 1920px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .course__info {
+    width: 50%;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 960px) {
+  h3 {
+    font-size: 88px;
+    color: #e7e7e7;
+    text-transform: uppercase;
+  }
+
+/*   .course__info:nth-child(2) {
+    order: 4;
+  }
+
+  .course__preview:nth-child(2) {
+    order: 0;
+  } */
+
+  .course picture:nth-child(2) {
+    order: 0;
+  }
+}
+
+
+
 
 
 
@@ -560,77 +578,7 @@ footer {
 
 
 
-body {
-  font-size: 1.8rem;
-}
 
-@media (min-width: 768px) {
-
-  html {
-    font-size: 62.5%;
-  }
-}
-
-@media (max-width: 767px) {
-
-  html{
-    font-size: 45.138888%;
-  }
-}
-
-p:not(:last-child) {
-  margin-bottom: 2rem;
-}
-
-.course {
-  box-shadow: 0 2px 7px 0 hsla(0,0%,4%,.05), 3px 27px 54px -34px rgba(0,0,0,.47);
-}
-
-.course:not(:first-of-type) {
-/*   margin-top: 5rem; */
-}
-
-
-
-.course__img, source {
-  display: block;
-  max-width: 100%;
-}
-
-
-.course__name {
-  margin-top: 0;
-  margin-bottom: 2rem;
-  font-size: 2.8rem;
-}
-
-@media (min-width: 641px) {
-
-  .course {
-    display: flex;
-    align-items: center;
-  }
-
-  .course__preview {
-    flex: none;
-    width: 50%;
-  }
-}
-
-
-@media (min-width: 961px) {
-
-  .course {
-    max-width: 1920px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .course__info {
-    width: 50%;
-/*     padding: 30px 60px; */
-  }
-}
 
 
 
@@ -725,8 +673,6 @@ p:not(:last-child) {
 
 
 
-
-
 <footer>
 <!--   <div class="container"> -->
     <div class="label_footer">
@@ -794,4 +740,52 @@ p:not(:last-child) {
 
     </div>
 <!--   </div> -->
-</footer> */ 
+</footer> */
+
+
+
+
+
+
+
+/* .player {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 960px;
+  font-size: 8.8rem;
+  color: #e7e7e7;
+  border: 2px solid green;
+  position: relative;
+}
+
+
+.l_player {
+  justify-content: center;
+  align-center: center;
+  border: 2px solid green;
+  width: 100%;
+  margin: 0;
+  position: relative;
+}
+
+.l_player span {
+  border: 2px solid white;
+}
+
+.white {
+  height: 44%;
+  position: relative;
+}
+
+.grey {
+  height: 28%;
+  background-color: grey;
+  position: relative;
+}
+
+.blue {
+  height: 28%;
+  background-color: #5e42b0;
+  position: relative;
+} */
