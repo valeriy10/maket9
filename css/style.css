@@ -58,7 +58,7 @@ html {
 @media (max-width: 640px) {
   html {
 /*     font-size: 8px; */
-    max-width: 640px;  
+    max-width: 640px;
   }
 
   header {
@@ -74,7 +74,7 @@ html {
 @media (min-width: 641px) and (max-width: 960px) {
   html {
 /*     font-size: 8px; */
-    min-width: 768px;
+/*     min-width: 768px; */
     max-width: 960px;
   }
 
