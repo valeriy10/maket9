@@ -57,7 +57,7 @@ html {
 
 @media (min-width: 961px) {
   html {
-    display: flex;
+/*     display: flex; */
     margin: auto;
 /*     font-size: 10px; */
     background-color: #ffffff;
