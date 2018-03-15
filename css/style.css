@@ -1,12 +1,24 @@
 
 @font-face {
-    font-family: OpenSans-Bold; /* Гарнитура шрифта */
-    src: local(OpenSans-Bold), url(fonts/OpenSans-Bold.ttf); /* Для остальных браузеров */
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+  url('../fonts/OpenSans-Regular.woff') format('woff'),
+  url('../fonts/OpenSans-Regular.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: OpenSans-Regular; /* Гарнитура шрифта */
-    src: local(OpenSans-Regular), url(fonts/OpenSans-Regular.ttf); /* Для остальных браузеров */
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Bold.woff2') format('woff2'),
+  url('../fonts/OpenSans-Bold.woff') format('woff'),
+  url('../fonts/OpenSans-Bold.ttf') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
 }
 
 
