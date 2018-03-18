@@ -14,7 +14,7 @@
   url('../fonts/OpenSans-Bold.woff') format('woff'),
   url('../fonts/OpenSans-Bold.ttf') format('woff');
   font-weight: bold;
-  font-style: normal;  
+  font-style: normal;
 }
 
 body {
@@ -38,7 +38,7 @@ h1, h2, h3 {
 /*begin blok dlya soderjimogo*/
 .container {
   width: 1530px;
-  margin: 0 auto;  
+  margin: 0 auto;
 }
 /*end blok dlya soderjimogo*/
 
@@ -677,15 +677,7 @@ body {
 
 
 
-footer::before {
-  position: absolute;
-  left: 0;
-  content: "";
-  width: 100%;
-  height: 960px;
-  background-color: #0a0e34;
-  opacity: 0.8;
-}
+
 
 footer {
   justify-content: center;
@@ -734,7 +726,21 @@ footer h2 {
 }
 
 
+
+
+
 @media (min-width: 961px) {
+
+  footer::before {
+    position: absolute;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 960px;
+    background-color: #0a0e34;
+    opacity: 0.1;
+  }
+
 
   * {
 /*     border: 2px solid green; */
@@ -810,7 +816,12 @@ footer h2 {
 }
 
 
-@media (min-width: 641px) and (max-width: 960px) {
+@media (min-width: 641px) {
+  footer {
+    background: url(../images/photofooter768.png) no-repeat;
+    background-size: cover;
+  }
+
   .surface_img {
     margin-top: 2.7em;
     width: 17vw;
