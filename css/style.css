@@ -52,24 +52,19 @@ h1, h2, h3 {
 
 
 
-
-
-
-
-
 @media (max-width: 640px) {
   html {
     max-width: 640px;
   }
 }
-
-
 @media (min-width: 641px) and (max-width: 960px) {
   html {
 /*     min-width: 768px; */
     max-width: 960px;
   }
 }
+
+
 
 
 
@@ -147,12 +142,11 @@ header {
     margin: auto;
     font-size: 1vw;
     background-color: #ffffff;
-    max-width: 1920px;
+    max-width: 100%;
 /*     min-width: 961px; */
   }
-
   body {
-    max-width: 1920px;
+    max-width: 100%;
   }
 
   /* header::before {
@@ -202,7 +196,7 @@ header {
 @media (max-width: 640px) {
 
    html {
-     font-size: 1vw;
+     font-size: 5vw;
    }
 
   header {
@@ -248,7 +242,7 @@ header {
 @media (min-width: 641px) and (max-width: 960px) {
 
   html {
-     font-size: 1vw;
+     font-size: 6vw;
    }
 
   header {
@@ -502,9 +496,9 @@ body {
 
 @media (max-width: 767px) {
 
-  html {
+/*   html {
     font-size: 45.138888%;
-  }
+  } */
 }
 
 @media (min-width: 768px) {
@@ -782,6 +776,7 @@ footer h2 {
   footer .panel_buttons {
     margin-top: 5.45em;
     margin-bottom: 1.3em;
+    width: 100%;
   }
 
   footer .footer_icon {
