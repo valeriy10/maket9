@@ -737,7 +737,7 @@ footer h2 {
 @media (min-width: 961px) {
 
   * {
-    border: 2px solid green;
+/*     border: 2px solid green; */
   }
 
   footer {
