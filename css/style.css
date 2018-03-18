@@ -17,6 +17,8 @@
   font-style: normal;
 }
 
+
+
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
@@ -50,17 +52,14 @@ h1, h2, h3 {
 
 
 
+
+
+
+
+
 @media (max-width: 640px) {
   html {
-    max-width: 640px;   
-  }
-
-  header {
-    background-image: url(../images/foot320.png) no-repeat;
-  }
-
-  footer {
-    background-image: url(../images/photofooter320.jpg) no-repeat;
+    max-width: 640px;
   }
 }
 
@@ -69,14 +68,6 @@ h1, h2, h3 {
   html {
 /*     min-width: 768px; */
     max-width: 960px;
-  }
-
-  header {
-    background: url(../images/foot320.png) no-repeat cover;
-  }
-
-  footer {
-    background: url(../images/photofooter320.jpg) no-repeat;
   }
 }
 
@@ -93,10 +84,19 @@ h1, h2, h3 {
     max-width: 1920px;
   }
 
+  /* header::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 960px;
+  background-color: #0a0e34;
+  opacity: 0.8;
+} */
+
   header {
 /*     padding-top: 2.2%; */
     padding-bottom: 0;
-    background: url(../images/foot1.png) no-repeat;
+    background: url(../images/header.png) no-repeat;
     background-position: center top;
   }
 
@@ -120,16 +120,6 @@ h1, h2, h3 {
     margin-top: 0;
     margin-left: 5.2em;
   }
-}
-
-
-header::before {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 960px;
-  background-color: #0a0e34;
-  opacity: 0.8;
 }
 
 header {
@@ -202,6 +192,14 @@ header {
 
 /* begin header mobile */
 @media (max-width: 640px) {
+
+  header {
+    background: url(../images/header320.png) no-repeat;
+/*     background-position: center top; */
+    background-size: cover;
+  }
+
+
   .apple1 {
     width: 20px;
   }
@@ -236,6 +234,12 @@ header {
 /* end header mobile */
 
 @media (min-width: 641px) and (max-width: 960px) {
+
+  header {
+    background: url(../images/header768.png) no-repeat;
+    background-size: cover;
+  }
+
   .header_main h1 {
     font-size: 64px;
     margin: 0;
@@ -727,96 +731,73 @@ footer h2 {
 
 
 
-
-
-@media (min-width: 961px) {
-
-  footer::before {
-    position: absolute;
-    left: 0;
-    content: "";
-    width: 100%;
-    height: 960px;
-    background-color: #0a0e34;
-    opacity: 0.1;
-  }
-
-
-  * {
-/*     border: 2px solid green; */
-  }
-
+@media (max-width: 640px) {
   footer {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    background: url(../images/photofooter.png) no-repeat;
-    padding-bottom: 0;
-    background-position: center top;
+    background: url(../images/photofooter320.jpg) no-repeat;
+    background-size: cover;
   }
+
 
   footer .surface_img {
-    margin: 0;
-    margin-top: 11.9em;
-    margin-bottom: 7.8em;
-    margin-left: 11em;
-    margin-right: 1.6em;
-
-    width: 6.8vw;
-    height: 7vw;
+    margin-top: 2.7em;
+    width: 17vw;
+    height: 17.5vw;
   }
 
   footer .surface_svg {
-    width: 100%;
-/*     margin-top: 17%; */
-/*     margin-left: 37%; */
-/*     height: 66%; */
-
-    width: 16.8vw;
-/*     height: 7vw; */
+    margin-top: 17%;
+    height: 66%;
   }
 
   footer h2 {
-    margin: 0;
-    margin-top: 0.1em;
-    margin-top: 4.1em;
-    text-align: left;
-    font-size: 4.17em;
-    /*   80 */
-    letter-spacing: 6px;
-  }
-  footer p {
-    text-align: left;
-    font-size: 1.56em;
-    /*   30 */
+    font-size: 1.7em;
+    margin-bottom: 0;
+    letter-spacing: 5.5px;
+    margin-top: 0.85em;
   }
 
-  .footer_main {
-    margin-bottom: 6.8em;
-    width: 50%;
-    letter-spacing: 2px;
+  footer p {
+    text-transform: uppercase;
+    margin-top: 0.2em;
+    font-size: 0.75em;
+    letter-spacing: 1px;
   }
 
   footer .panel_buttons {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 0;
+    margin-top: 5.45em;
+    margin-bottom: 1.3em;
   }
 
-  .button_appstore {
-    margin: 0;
-  }
-
-  .footer_icon {
-    margin-top: auto;
-    margin-bottom: 2.66em;
-    /*   51 */
+  footer .footer_icon {
+    width: 26.9%;
+    margin-bottom: 0.25em;
   }
 }
 
+/*   .footer_main h2 {
+    font-size: 32px;
+  }
 
-@media (min-width: 641px) {
+  .footer_main p {
+    font-size: 14px;
+  }
+
+  .label_footer {
+    flex-direction: column;
+    margin-top: 99px;
+  }
+
+  .label_footer picture {
+    margin-bottom: 59px;
+  } */
+
+/* } */
+
+
+
+
+@media (min-width: 641px) and (max-width: 960px) {
+
   footer {
     background: url(../images/photofooter768.png) no-repeat;
     background-size: cover;
@@ -880,63 +861,90 @@ footer h2 {
 }
 
 
-@media (max-width: 640px) {
+
+@media (min-width: 961px) {
+
+/*   footer::before {
+    position: absolute;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 960px;
+    background-color: #0a0e34;
+    opacity: 0.1;
+  } */
+
+  * {
+/*     border: 2px solid green; */
+  }
+
   footer {
-    background-image: url(../images/photofooter320.jpg);
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+    background: url(../images/photofooter.png) no-repeat;
     background-size: cover;
   }
 
   footer .surface_img {
-    margin-top: 2.7em;
-    width: 17vw;
-    height: 17.5vw;
+    margin: 0;
+    margin-top: 11.9em;
+    margin-bottom: 7.8em;
+    margin-left: 11em;
+    margin-right: 1.6em;
+
+    width: 6.8vw;
+    height: 7vw;
   }
+
   footer .surface_svg {
-    margin-top: 17%;
-    height: 66%;
+    width: 100%;
+/*     margin-top: 17%; */
+/*     margin-left: 37%; */
+/*     height: 66%; */
+
+    width: 16.8vw;
+/*     height: 7vw; */
   }
+
   footer h2 {
-    font-size: 1.7em;
-    margin-bottom: 0;
-    letter-spacing: 5.5px;
-    margin-top: 0.85em;
+    margin: 0;
+    margin-top: 0.1em;
+    margin-top: 4.1em;
+    text-align: left;
+    font-size: 4.17em;
+    /*   80 */
+    letter-spacing: 6px;
   }
   footer p {
-    text-transform: uppercase;
-    margin-top: 0.2em;
-    font-size: 0.75em;
-    letter-spacing: 1px;
+    text-align: left;
+    font-size: 1.56em;
+    /*   30 */
+  }
+
+  .footer_main {
+    margin-bottom: 6.8em;
+    width: 50%;
+    letter-spacing: 2px;
   }
 
   footer .panel_buttons {
-    margin-top: 5.45em;
-    margin-bottom: 1.3em;
-  }
-  footer .footer_icon {
-    width: 26.9%;
-    margin-bottom: 0.25em;
-  }
-}
-
-
-
-
-/*   .footer_main h2 {
-    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
   }
 
-  .footer_main p {
-    font-size: 14px;
+  .button_appstore {
+    margin: 0;
   }
 
-  .label_footer {
-    flex-direction: column;
-    margin-top: 99px;
+  .footer_icon {
+    margin-top: auto;
+    margin-bottom: 2.66em;
+    /*   51 */
   }
-
-  .label_footer picture {
-    margin-bottom: 59px;
-  } */
 }
 
 
