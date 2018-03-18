@@ -28,7 +28,7 @@ header, footer, .athlets {
   width: 100%;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  overflow: hidden;  
 }
 
 h1, h2, h3 {
