@@ -168,7 +168,7 @@ header {
     padding-bottom: 0;
     background: url(../images/header.png) no-repeat;
     background-size: cover;
-    background-position: center top;
+/*     background-position: center top; */
   }
 
   .surface_icon {
@@ -199,6 +199,10 @@ header {
 
 /* begin header mobile */
 @media (max-width: 640px) {
+
+   html {
+     font-size: 1vw;
+   }
 
   header {
     background: url(../images/header320.png) no-repeat;
@@ -241,6 +245,10 @@ header {
 /* end header mobile */
 
 @media (min-width: 641px) and (max-width: 960px) {
+
+  html {
+     font-size: 1vw;
+   }
 
   header {
     background: url(../images/header768.png) no-repeat;
