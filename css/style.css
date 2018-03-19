@@ -4,7 +4,7 @@
   src: url('../fonts/OpenSans-Regular.woff2') format('woff2'),
   url('../fonts/OpenSans-Regular.woff') format('woff'),
   url('../fonts/OpenSans-Regular.ttf') format('woff');
-  font-weight: normal;  
+  font-weight: normal;
   font-style: normal;
 }
 
@@ -636,9 +636,6 @@ header {
 
 
 
-body {
-/*   font-size: 1.8rem; */
-}
 
 @media (max-width: 767px) {
 
@@ -688,7 +685,6 @@ body {
 
 
 .course__img, source {
-/*   display: block; */
   max-width: 100%;
 }
 
@@ -796,7 +792,8 @@ body {
 
   .course__preview {
 /*     flex: none; */
-    width: 50%;
+/*     width: 50%; */
+    flex-basis: 50%;
   }
 
   .course__info {
