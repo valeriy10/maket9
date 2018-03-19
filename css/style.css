@@ -116,10 +116,6 @@ header {
   display: block;
 }
 
-.bold_label {
-  font-weight: bold;
-}
-
 
 @media (min-width: 961px) {
   html {
