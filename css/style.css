@@ -21,7 +21,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;  
-  margin: 0;  
+/*   margin: 0;   */
 }
 
 header, footer, .athlets {
@@ -80,7 +80,7 @@ header {
   align-items: center;
   position: relative;
   margin-top: 4.5rem;
-  width: 100%;
+/*   width: 100%; */
 }
 
 .surface_icon {
