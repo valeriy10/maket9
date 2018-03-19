@@ -97,10 +97,10 @@ header {
   width: 100%;
 }
 
-/* .button_appstore {
-  width: 45%;
+.button_appstore {
+/*   width: 45%;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; */
   
   display: flex;
   justify-content: center;
@@ -110,7 +110,7 @@ header {
   border-radius: 38px;
   background-color: #5e42b0;
   box-shadow: 8px 13.856px 24px 0px rgb( 10, 14, 52 );
-} */
+}
 
 .button_appstore strong {
   display: block;
