@@ -265,11 +265,17 @@ header {
     margin-bottom: 0.1em;
   }
 
-  .button_appstore:nth-child(even) {
+/*   .button_appstore:nth-child(even) {
     margin-bottom: 84px;
-  }
+  } */
 }
 /* end header mobile */
+
+.apple1 {
+    width: 7vw;
+    height: 7vw;
+    margin-left: 2px;
+  }
 
 
 
