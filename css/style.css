@@ -201,9 +201,9 @@ header {
 /* begin header mobile */
 @media (max-width: 640px) {
 
-   html {
-     font-size: 5vw;
-   }
+  html {
+    font-size: 5vw;
+  }
 
   header {
     background: url(../images/header320.png) no-repeat;
@@ -257,6 +257,12 @@ header {
     padding-top: 0.5em;
     margin-bottom: 1.88em;
     letter-spacing: 0.3px;
+  }
+  
+  .button_appstore span {
+    padding-top: 3px;
+    display: block;
+    margin-bottom: 0.1em;
   }
 
   .button_appstore:nth-child(even) {
