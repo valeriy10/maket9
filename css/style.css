@@ -107,7 +107,7 @@ header {
   align-items: center; */
 /*   position: relative; */
   text-transform: uppercase;
-  border-radius: 38px;
+  border-radius: 38px; 
   background-color: #5e42b0;
   box-shadow: 8px 13.856px 24px 0px rgb( 10, 14, 52 );
 }
