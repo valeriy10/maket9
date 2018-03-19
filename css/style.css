@@ -228,9 +228,13 @@ header {
   }
   
   .header_main span {
-    font-size: 28px;
+    display: block;
+    margin-top: 0.6em;
+    margin-left: 1.7em;
+    margin-bottom: 2.7em;
+/*     font-size: 28px;
     font-weight: 700;
-    width: 240px;
+    width: 240px; */
   }
 
   .panel_buttons {
