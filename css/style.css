@@ -65,8 +65,8 @@ header {
   flex-direction: column;
   margin: 0;
   height: 960px;
-  /* justify-content: space-between;
-  align-items: center; */
+   justify-content: space-between;
+  /*align-items: center; */
   color: #ffffff;
   background-size: cover;
 }
