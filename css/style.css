@@ -316,7 +316,7 @@ header {
 /*     margin: auto; */
   font-size: 1vw;
   background-color: #ffffff;
-  max-width: 100%;
+  width: 100%;
   }
 
   body {
