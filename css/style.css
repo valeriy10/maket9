@@ -63,13 +63,6 @@ h1, h2, h3 {
 }
 
 
-
-
-* {
-/*   border: 2px solid green; */
-}
-
-
 header {
   display: flex;
   flex-direction: column;
@@ -208,7 +201,6 @@ header {
 /*   .button_appstore:nth-child(even) {
     margin-bottom: 84px;
   } */
-}
 
 
   .apple1 {
@@ -218,6 +210,8 @@ header {
     margin-left: 2px;
   }
 /* end header mobile */
+  
+}
 
 
 
