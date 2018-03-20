@@ -627,26 +627,7 @@ header {
 
 
 
-
-
-
-
-
-
-@media (max-width: 767px) {
-
-/*   html {
-    font-size: 45.138888%;
-  } */
-}
-
-@media (min-width: 768px) {
-
-/*   html {
-    font-size: 62.5%;
-  } */
-}
-
+/* begin course */
 .course {
   position: relative;
 }
@@ -693,6 +674,8 @@ header {
 /* .first h3, .twice h3 {
   margin-top: 261px;   big value
 } */
+
+
 
 @media (max-width: 640px) {
   .first {
@@ -819,6 +802,8 @@ header {
   }
 }
 
+
+/* end course */
 
 
 
