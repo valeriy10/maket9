@@ -97,7 +97,7 @@ header {
 }
 
 .apple1 {
-  display: flex;
+  float: left;
   margin-right: 10px;
   fill: #ffffff;
 }
