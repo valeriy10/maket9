@@ -72,6 +72,7 @@ h1, h2, h3 {
 header {
   display: flex;
   flex-direction: column;
+  margin: 0;
 
 /*    height: 960px;
   justify-content: space-between;
