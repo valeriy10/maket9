@@ -25,7 +25,7 @@ body {
   padding: 0;
 }
 
-footer, .athlets {
+.athlets {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -833,8 +833,12 @@ header {
 
 
 footer {
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  overflow: hidden;
+  justify-content: center;
+  
   height: 960px;
   color: #ffffff;
   background-size: cover;
