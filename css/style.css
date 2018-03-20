@@ -627,10 +627,7 @@ header {
 
 
 
-/* begin course */
-.course {
-  position: relative;
-}
+
 
 .kv_center {
 /*   width: 168px;
@@ -640,6 +637,17 @@ header {
   top: calc(50% - 155px/2);
 /*   background-color: #5e42b0; */
 }
+
+/* begin course */
+.course {
+  position: relative;
+  padding-bottom: 4em;
+}
+
+.course__img, source {
+  width: 100%;
+}
+
 
 .course h3 {
   color: #e7e7e7;
@@ -658,11 +666,6 @@ header {
 
 .third p {
   margin-top: 110px;
-}
-
-
-.course__img, source {
-  max-width: 100%;
 }
 
 .course__name {
