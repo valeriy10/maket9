@@ -97,9 +97,9 @@ header {
 }
 
 .apple1 {
-  fill: #ffffff;
-  float: left;
+  display: flex;
   margin-right: 10px;
+  fill: #ffffff;
 }
 
 .panel_buttons {
