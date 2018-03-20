@@ -810,8 +810,8 @@ header {
 
 @media (min-width: 641px) and (max-width: 960px) {
 
-  h3 {
-    font-size: 88px;
+  .course h3 {
+    font-size: 58px;
     color: #e7e7e7;
     text-transform: uppercase;
   }
