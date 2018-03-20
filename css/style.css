@@ -301,10 +301,9 @@ header {
 
 @media (min-width: 961px) {
   html {
-/*     margin: auto; */
-  font-size: 1vw;
-  background-color: #ffffff;
-  max-width: 100%;
+    font-size: 1vw;
+    background-color: #ffffff;
+    /*   max-width: 100%; */
   }
 
   body {
