@@ -318,7 +318,7 @@ header {
 } */
 
   header {
-/*     padding-top: 2.2%; */
+    padding-top: 2.2%;
     padding-bottom: 0;
     background: url(../images/header.png) no-repeat;
     background-size: cover;
