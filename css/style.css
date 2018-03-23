@@ -479,6 +479,10 @@ header {
   text-transform: uppercase;
 }
 
+.athlets span {
+  display: block;
+}
+
 .athlets_blue span {
   color: #ffffff;
 }
@@ -528,8 +532,7 @@ header {
     letter-spacing: 1.5px;
   }
 
-  .athletes span {
-    display: block;
+  .athlets span {
     font-size: 1em;
     /*margin-left: 2.5em;*/
     margin-top: 0.7em;
@@ -553,7 +556,7 @@ header {
   .athlets_blue h3 {
     margin-top: 1.9em;
   }
-  .athlets_blue p {
+  .athlets_blue span {
     /*width: 70%;*/
     line-height: 1.35;
     margin-top: 1em;
@@ -635,6 +638,126 @@ header {
 
 @media (min-width: 641px) and (max-width: 960px) {
 
+  html {
+    font-size: 6vw;
+  }
+
+  .athlets {
+    position: relative;
+  }
+
+  .athlets_preview {
+    margin: 0;
+    width: 62vw;
+    position: absolute;
+    left: -21%;
+    top: 12%;
+    z-index: 1;
+  }
+
+  .athlets h2 {
+    /*margin-top: 86px;*/
+    /*font-size: 80px;*/
+    /*font-size: 7.68vw;*/
+    /*line-height: 60px;*/
+  }
+
+  .athlets h2 {
+    font-size: 3em;
+    color: #e7e7e7;
+    margin-top: 0.25em;
+    margin-left: 0.46em;
+    margin-bottom: 0.208em;
+    letter-spacing: 1px;
+  }
+
+  /*.athlets > div {
+    padding-bottom: 3.1em;
+  }*/
+
+  .athlets_white {
+    padding-top: 3.2em;
+    margin-top: -3.35em;
+  }
+
+  .athlets_grey {
+    padding-bottom: 3.2em;
+  }
+
+  .athlets_grey, .athlets_blue {
+    padding-top: 2em;
+  }
+
+  .athlets_blue h3 {
+    margin-top: 0.6em;
+    margin-bottom: 0.65em;
+  }
+
+  .athlets_blue {
+    padding-bottom: 2.2em;
+  }
+
+
+  .athlets h3 {
+    font-size: 1.8em;
+    margin-left: 1.5em;
+    margin-top: 0.6em;
+    margin-bottom: 0.7em;
+    letter-spacing: 1px;
+  }
+
+  .athlets span {
+    width: 88%;
+    margin-left: 1.3em;
+    letter-spacing: 0.2px;
+  }
+
+
+  /*.athlets h3 {
+    font-size: 4.17vw;
+    font-size: 0.7em;
+    margin-left: 1.2em;
+    margin-top: 1.4em;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+  }*/
+
+  .athlets_white, .athlets_grey, .athlets_blue {
+    /*padding-left: 37%;*/
+    padding-top: 0;
+    padding-bottom: 1.5em;
+  }
+
+  .athlets span {
+    font-size: 0.35em;
+    margin-left: 0.4em;
+    margin-top: 1.2em;
+    letter-spacing: 0.7px;
+    width: 90%;
+    line-height: 1.8;
+  }
+
+  .athlets_grey {
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+  }
+
+  .athlets_grey span {
+    letter-spacing: 0.7px;
+  }
+
+  .athlets_blue {
+    padding-top: 0.7em;
+    padding-bottom: 1.2em;
+  }
+
+  .athlets_blue p {
+    width: 95%;
+  }
+
+
+
+
   .athlets_white_mobile {
     /*background-color: green;*/
     height: 166px;
@@ -644,42 +767,30 @@ header {
     height: 185px;
   }
 
-  .athlets_white h3 {
-/*     margin-top: 62px; */
+  /*.athlets_white h3 {
     margin-bottom: 32px;
     line-height: 1;
   }
 
   .athlets_white span {
     margin-bottom: 76px;
-/*     line-height: 1; */
+     line-height: 1; 
   }
 
   .athlets_grey h3, .athlets_blue h3 {
     margin-top: 42px;
-/*         line-height: 1; */
+    line-height: 1; 
   }
 
   .athlets_grey span {
     margin-bottom: 32px;
     line-height: 1;
-  }
+  }*/
 
-  .athlets_preview {
+  /*.athlets_preview {
     top: 94px;
-/*     left: calc(50% - 86px); */
-  }
-
-  .athlets h2 {
-    margin-top: 86px;
-    /*font-size: 80px;*/
-    font-size: 7.68vw;
-    line-height: 60px;
-  }
-
-  .athlets h3 {
-    font-size: 4.17vw;
-  }
+     left: calc(50% - 86px); 
+  }*/
 }
 /* end athlets */
 
@@ -778,6 +889,8 @@ header {
 
 
 @media (min-width: 641px) and (max-width: 960px) {
+  
+
   .first {
     height: 337px;
   }
