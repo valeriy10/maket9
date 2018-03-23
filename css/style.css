@@ -435,13 +435,17 @@ header {
 
 .athlets_preview {
   position: absolute;
-  top: 0;
-  left: calc(50% - 600px);
+  /*left: calc(50% - 600px);*/
+  width: 33.8vw;
+  top: -7.5%;
+  left: 15.3%;
 }
 .player_preview {
   position: absolute;
-  top: 0;
-  right: calc(50% - 600px);
+  width: 51.5vw;
+  top: -3%;
+  right: 6.5%;
+  /*right: calc(50% - 600px);*/
 }
 
 .athlets_middle, .athlets_middle_text {
@@ -781,6 +785,8 @@ header {
   }
 
   .kv_center {
+    width: 70px;
+    height: 70px;
     position: absolute;
     left: calc(2vw);
     top: calc(40% - 155px/2);
@@ -793,7 +799,7 @@ header {
 
   .kv_center {
     position: absolute;
-    left: calc(10% - 168px/2);
+    left: calc(50% - 168px/2);
     top: calc(50% - 155px/2);
     /*   background-color: #5e42b0; */
   }
@@ -1082,10 +1088,6 @@ footer h2 {
     background-color: #0a0e34;
     opacity: 0.1;
   } */
-
-  * {
-/*     border: 2px solid green; */
-  }
 
   footer {
     flex-direction: row;
