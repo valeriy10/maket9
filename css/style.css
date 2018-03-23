@@ -436,15 +436,9 @@ header {
 .athlets_preview {
   position: absolute;
   /*left: calc(50% - 600px);*/
-  width: 33.8vw;
-  top: -7.5%;
-  left: 15.3%;
 }
 .player_preview {
   position: absolute;
-  width: 51.5vw;
-  top: -3%;
-  right: 6.5%;
   /*right: calc(50% - 600px);*/
 }
 
@@ -481,20 +475,16 @@ header {
 
 
 .athlets h2 {
-  font-size: 4.17em;
-/*   80 */
-  font-weight: bold;
   color: #e7e7e7;
   text-transform: uppercase;
   overflow: hidden;
 }
 .athlets h3 {
-  position: relative;
-  font-size: 1.88em;
-/*   1.7 */
+  /*position: relative;*/
   color: #c1c1c1;
   text-transform: uppercase;
 }
+
 .athlets span {
   font-size: 20px;
 }
@@ -519,13 +509,39 @@ header {
     flex-direction: row-rewerse;
   }
 
+  .athlets_preview {
+    width: 33.8vw;
+    top: -7.5%;
+    left: 15.3%;
+  }
+
+  .player_preview {
+    width: 51.5vw;
+    top: -3%;
+    right: 6.5%;
+  }
+  
+
+
+
   .athlets_grey h3 {
     margin-top: 91px;
   }
 
-  .athlets_white_mobile h2 {
+  .athlets h2 {
     margin-top: 96px;
+    margin-top: 1.25em;
+    font-size: 4.1em;
   }
+}
+
+.athlets h3 {
+  /*font-size: 1.88em;*/
+  /*   1.7 */
+  font-size: 1.9em;
+  margin-left: 2.2em;
+  margin-top: 2em;
+  letter-spacing: 1.5px;
 }
 
 
