@@ -511,6 +511,7 @@ header {
 
   .player {
     display: flex;
+    flex-direction: row-rewerse;
   }
 
   .athlets_grey h3 {
