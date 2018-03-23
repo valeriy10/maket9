@@ -440,7 +440,7 @@ header {
 .player_preview {
   position: absolute;
   top: 0;
-  right: 0;
+  right: calc(50% - 600px);
 }
 
 .athlets_middle, .athlets_middle_text {
