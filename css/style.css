@@ -455,17 +455,17 @@ header {
 }
 
 .athlets_blue {
+  background-color: #5e42b0;
   height: 297px;
 }
 
-.athlets_white_mobile h2, .athlets_white div, .athlets_grey div, .athlets_blue div {
+/*.athlets_white_mobile h2, .athlets_white div, .athlets_grey div, .athlets_blue div {
+  margin-left: auto;
+}*/
+
+.container h2, .container div {
   margin-left: auto;
 }
-
-.athlets_blue {
-  background-color: #5e42b0;
-}
-
 
 
 .athlets h2 {
@@ -489,6 +489,7 @@ header {
 }
 
 
+
 @media (min-width: 961px) {
   /*begin blok dlya soderjimogo*/
   .container {
@@ -498,6 +499,10 @@ header {
     /*border: 2px solid green;*/
   }
   /*end blok dlya soderjimogo*/
+
+  .athlets_middle, .athlets_middle_text {
+    width: 47.6%;
+  }
 
   .player {
     display: flex;
@@ -528,7 +533,7 @@ header {
     /*font-size: 1.88em;*/
     /*   1.7 */
     font-size: 1.9em;
-    margin-left: 2.2em;
+    /*margin-left: 2.2em;*/
     margin-top: 2em;
     letter-spacing: 1.5px;
   }
@@ -643,6 +648,23 @@ header {
     font-size: 6vw;
   }
 
+  .container {
+    /*width: 702px;*/
+    width: 91.4vw;
+    margin: 0 auto;
+    /*border: 2px solid green;*/
+  }
+  /*end blok dlya soderjimogo*/
+
+  .athlets_middle, .athlets_middle_text {
+    width: 62%;
+  }
+
+  .player {
+    display: flex;
+    flex-direction: row-rewerse;
+  }
+
   .athlets {
     position: relative;
   }
@@ -662,7 +684,7 @@ header {
     /*font-size: 7.68vw;*/
     /*line-height: 60px;*/
     font-size: 1.7em;
-    margin-left: 38%;
+    /*margin-left: 38%;*/
     letter-spacing: 1px;
     margin-bottom: 0;
   }
@@ -675,12 +697,17 @@ header {
     letter-spacing: 1px;
   }
 
+  h3 img {
+    /*padding-right: 1.69vw;*/
+    /*padding-right: 30px;*/
+  }
+
   .athlets span {
     font-size: 0.35em;
     margin-left: 0.4em;
     margin-top: 1.2em;
     letter-spacing: 0.7px;
-    width: 90%;
+    /*width: 90%;*/
     line-height: 1.8;
   }
 
@@ -1067,8 +1094,8 @@ footer h2 {
   }
 
   footer .surface_svg {
-    margin-top: 17%;
-    height: 66%;
+    /*margin-top: 17%;
+    height: 66%;*/
   }
 
   footer h2 {
@@ -1214,16 +1241,17 @@ footer h2 {
     margin-left: 11em;
     margin-right: 1.6em;
 
-    width: 6.8vw;
-    height: 7vw;
+    /*width: 6.8vw;
+    height: 7vw;*/
   }
 
   footer .surface_svg {
     width: 100%;
+    border: 2px solid green;
 /*     margin-top: 17%; */
 /*     margin-left: 37%; */
 /*     height: 66%; */
-    width: 16.8vw;
+    /*width: 16.8vw;*/
 /*     height: 7vw; */
   }
 
