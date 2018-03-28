@@ -18,6 +18,7 @@
 } 
 
 
+
 body {
   font-family: 'Open Sans', sans-serif;
   padding: 0;
@@ -1221,9 +1222,14 @@ footer h2 {
 .surface_img {
   display: flex;
   justify-content: center;
-  position: relative;
+  /*position: relative;*/
   border-radius: 20%;
   background: linear-gradient(180deg, #7554d5 0%, #50379b 100%);
+}
+
+footer .surface_svg {
+  width: 80%;
+  stroke: #ffffff;
 }
 
 .footer_main p {
@@ -1403,23 +1409,18 @@ footer h2 {
   }
 
   footer .surface_img {
-    margin: 0;
     /*margin-top: 11.9em;*/
+    margin: 0;
     margin-bottom: 7.8em;
     margin-left: 11em;
     margin-right: 1.6em;
-    /*width: 6.8vw;
-    height: 7vw;*/
+    width: 6.8vw;
+    height: 7vw;
   }
 
   footer .surface_svg {
-    width: 100%;
-    border: 2px solid green;
-/*     margin-top: 17%; */
-/*     margin-left: 37%; */
-/*     height: 66%; */
-    /*width: 16.8vw;*/
-/*     height: 7vw; */
+    /*margin-top: 17%;
+    height: 66%;*/
   }
 
   footer h2 {
@@ -1444,20 +1445,22 @@ footer h2 {
     letter-spacing: 2px;
   }
 
+
   footer .panel_buttons {
     padding: 0;
     margin: 0;
     width: 100%;
     justify-content: center;
-    /*justify-content: space-between;*/
   }
 
   .button_appstore {
     margin: 0;
+    margin-right: 25px;
+    margin-left: 25px;
   }
 
   .footer icon1 {
-    /*margin-top: auto;*/
+    margin-top: auto;
     margin-bottom: 2.66em;
     /*   51 */
   }
