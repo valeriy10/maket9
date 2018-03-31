@@ -964,6 +964,10 @@ header {
   padding-bottom: 4em;
 }
 
+.kv_center {
+    position: absolute;
+}
+
 .course__img, source {
   width: 100%;
 }
@@ -978,8 +982,6 @@ header {
   font-size: 2.8rem;*/
 }
 
-
-
 /* .first h3, .twice h3 {
   margin-top: 261px;   big value
 } */
@@ -987,6 +989,15 @@ header {
 
 
 @media (max-width: 640px) {
+
+  .kv_center {
+    /*width: 70px;*/
+    /*height: 70px;*/
+    width: 21.9vw;
+    left: 6.3vw;
+    top: 91.5vw;
+  }
+
   .course__picture {
     width: 100%;
     min-height: 1px;
@@ -1034,13 +1045,6 @@ header {
     letter-spacing: 0.8px;
     line-height: 1.3;
   }
-
-  .kv_center {
-    width: 70px;
-    height: 70px;
-    left: calc(50% - 70px/2);
-    top: calc(50% - 70px/2);
-  }
 }
 
 
@@ -1087,11 +1091,10 @@ header {
   }
 
   .kv_center {
-    width: 70px;
-    height: 70px;
-    position: absolute;
-    left: calc(2vw);
-    top: calc(40% - 155px/2);
+    width: 15.1vw;
+    /*height: 70px;*/
+    left: 4.3vw;
+    top: 65.8vw;
     /*   background-color: #5e42b0; */
   }
 }
@@ -1100,9 +1103,9 @@ header {
 @media (min-width: 961px) {
 
   .kv_center {
-    position: absolute;
-    left: calc(50% - 168px/2);
-    top: calc(50% - 155px/2);
+    width: 8.75vw;
+    left: calc(50% - 8.75vw/2);
+    top: calc(50% - 8.1vw/2);
     /*   background-color: #5e42b0; */
   }
 
@@ -1354,7 +1357,13 @@ footer .surface_svg {
     margin-bottom: 1.3em;
   }
 
-  footer .footer_icon {
+  footer .button_appstore {
+    height: 77px;
+  }
+
+
+
+  footer .icon1 {
     width: 26.9%;
     margin-bottom: 0.25em;
   }
@@ -1425,8 +1434,7 @@ footer .surface_svg {
 
   footer h2 {
     margin: 0;
-    margin-top: 0.1em;
-    margin-top: 0.1em;
+    margin-top: 1.1em;
     text-align: left;
     font-size: 4.17em;
     /*   80 */
@@ -1447,13 +1455,13 @@ footer .surface_svg {
 
 
   footer .panel_buttons {
+    justify-content: center;
     padding: 0;
     margin: 0;
     width: 100%;
-    justify-content: center;
   }
 
-  .button_appstore {
+  footer .button_appstore {
     margin: 0;
     margin-right: 25px;
     margin-left: 25px;
