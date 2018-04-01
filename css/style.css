@@ -15,9 +15,7 @@
   url('../fonts/OpenSans-Bold.ttf') format('woff');  
   font-weight: bold;
   font-style: normal;     
-}
-
-
+} 
 
 
 
@@ -590,10 +588,10 @@ header {
   
   .basket span,
   .basket .athlets_grey span {
-    font-weight: 200;
-    font-size: 1.1em;
-    /*margin-left: 16.8%;*/
     margin-top: 0.9em;
+    font-weight: 200;
+    /*font-size: 1.1em;*/
+    /*margin-left: 16.8%;*/
     /*width: 34%;*/
     line-height: 1.4;
     letter-spacing: 0.9px;
@@ -630,14 +628,15 @@ header {
   /*end blok dlya soderjimogo*/
 
   .athlets_preview {
-    top: 80px;
+    /*top: 80px;*/
+    top: 25%;
     left: calc(50% - 86px);
-    /*margin-top: 0;*/
     /*width: 60.5vw;*/
     min-height: 1px;
   }
   .player_preview {
-    top: 85px;
+    /*top: 85px;*/
+    top: 25.9%;
     left: calc(50% - 156px);
   }
 
@@ -972,7 +971,7 @@ header {
 }
 
 .kv_center {
-    position: absolute;
+  position: absolute;
 }
 
 .course__img, source {
@@ -984,14 +983,9 @@ header {
   color: #e7e7e7;
   text-transform: uppercase;
   /*font-size: 80px;*/
-  /*margin-top: 0;
-  margin-bottom: 2rem;
+  /*margin-bottom: 2rem;
   font-size: 2.8rem;*/
 }
-
-/* .first h3, .twice h3 {
-  margin-top: 261px;   big value
-} */
 
 
 
@@ -1124,7 +1118,6 @@ header {
   .course {
     display: flex;
     align-items: center;
-    /*max-width: 1920px;*/
     padding-bottom: 0;
     /*margin-bottom: -0.2em;*/
   }
@@ -1138,12 +1131,12 @@ header {
     flex-basis: 50%;
   }
 
-  .course__text {
-    width: 50%;
+  .course__picture img {
+    /*width: 100%;*/
   }
 
-   .course__picture img {
-    width: 100%;
+  .course__text {
+    width: 50%;
   }
 
 
@@ -1195,7 +1188,6 @@ header {
 }
 
 
-
 /* end course */
 
 
@@ -1214,10 +1206,10 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow: hidden;
   justify-content: center;
+  overflow: hidden;
   
-  height: 960px;
+  height: 50vw;
   color: #ffffff;
   background-size: cover;
   text-transform: uppercase;
@@ -1226,7 +1218,7 @@ footer {
 
 footer h2 {
   text-align: center;
-  position: relative;
+  /*position: relative;*/
   font-size: 2rem;
   letter-spacing: 1.8px;
   margin-bottom: 0.1rem;
@@ -1271,6 +1263,7 @@ footer .surface_svg {
   footer {
     background: url(../images/photofooter320.jpg) no-repeat;
     background-size: cover;
+    height: 177.5vw;
   }
 
 
@@ -1305,9 +1298,15 @@ footer .surface_svg {
     width: 100%;
   }
 
-  footer .footer_icon {
-    width: 26.9%;
-    margin-bottom: 0.25em;
+  footer .icon1 {
+    /*width: 26.9%;*/
+    /*margin-bottom: 0.25em;*/
+    width: 41%;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    /*margin-bottom: 1.9%;*/
+    border: 2px solid green;
   }
 }
 
