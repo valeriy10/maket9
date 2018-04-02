@@ -1240,11 +1240,10 @@ footer .surface_svg {
 }
 
 .footer_main p {
-  position: relative;
+  /*position: relative;*/
   font-size: 0.9em;
   color: rgb( 164, 150, 202 );
-  font-weight: 700;
-  letter-spacing: 0.5px;
+  /*letter-spacing: 0.5px;*/
   margin-top: 0;
   margin-bottom: 5.3em;
 }
@@ -1352,17 +1351,28 @@ footer .surface_svg {
     height: 66%;
   }
 
+  .footer_main {
+    /*width: 702px;*/
+    width: 91.4vw;
+    /*border: 1px solid green;*/
+  }
+
   footer h2 {
-    font-size: 1.7em;
-    margin-bottom: 0;
-    letter-spacing: 5.5px;
+    /*6vw=46.08px*/
+    /*font-size: 80px;*/
+    font-size: 1.74em;
+    text-align: center;
     margin-top: 0.85em;
+    margin-bottom: 0;
+    letter-spacing: 2px;
   }
 
   footer p {
     margin-top: 0.2em;
-    font-size: 0.75em;
-    letter-spacing: 1px;
+    /*font-size: 36px;*/
+    font-size: 0.77em;
+    letter-spacing: 100%;
+    text-align: center;
   }
 
   footer .panel_buttons {
@@ -1374,19 +1384,13 @@ footer .surface_svg {
     height: 77px;
   }
 
-
-
   footer .icon1 {
     width: 26.9%;
     margin-bottom: 0.25em;
   }
 
 
-/*   .footer_main h2 {
-    font-size: 80px;
-  }
-
-  .footer_main p {
+/*  .footer_main p {
     font-size: 36px;
   }
 
