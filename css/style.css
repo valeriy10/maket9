@@ -18,6 +18,7 @@
 } 
 
 
+
 body {
   font-family: 'Open Sans', sans-serif;
   padding: 0;
@@ -1339,20 +1340,21 @@ footer .surface_svg {
     height: 124.5%;
   }
 
-  .surface_img {
+  footer .surface_img {
+    position: relative;
     margin-top: 2.7em;
-    width: 17vw;
+    width: 16.9vw;
     height: 17.5vw;
   }
 
   footer .surface_svg {
-    margin-top: 17%;
-    height: 66%;
+    /*margin-top: 17%;*/
+    /*height: 66%;*/
   }
 
   .footer_main {
     /*width: 702px;*/
-    width: 91.4vw;
+    width: 91.5vw;
     /*border: 1px solid green;*/
   }
 
@@ -1380,7 +1382,8 @@ footer .surface_svg {
   }
 
   footer .button_appstore {
-    height: 77px;
+    /*height: 77px;*/
+    height: 10vw;
   }
 
   footer .icon1 {
@@ -1389,11 +1392,7 @@ footer .surface_svg {
   }
 
 
-/*  .footer_main p {
-    font-size: 36px;
-  }
-
-  .label_footer {
+/* .label_footer {
     flex-direction: column;
     margin-top: 126px;
   }
