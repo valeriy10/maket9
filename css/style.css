@@ -1337,6 +1337,8 @@ footer .surface_svg {
   footer {
     background: url(../images/photofooter768.png) no-repeat;
     background-size: cover;
+    /*height: 956px;*/
+    height: 124.5%;
   }
 
   .surface_img {
