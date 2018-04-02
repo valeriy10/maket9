@@ -15,8 +15,7 @@
   url('../fonts/OpenSans-Bold.ttf') format('woff');  
   font-weight: bold;
   font-style: normal;     
-}
-
+} 
 
 
 
@@ -1052,6 +1051,8 @@ header {
 
 @media (min-width: 641px) and (max-width: 960px) {
 
+  /*6vw=46.08*/
+   
   .kv_center {
     width: 15.1vw;
     /*height: 70px;*/
@@ -1067,7 +1068,8 @@ header {
   }
 
   .first {
-    height: 337px;
+    /*height: 337px;*/
+    height: 43.9vw;
   }
 
   .twice {
@@ -1080,10 +1082,20 @@ header {
 
   .course h3 {
 /*     font-size: 80px; */
-    line-height: 60px;
-    font-size: 58px;
+    /*line-height: 60px;*/
+    line-height: 1.3em;
+    /*font-size: 58px;*/
+    font-size: 1.73em;
     color: #e7e7e7;
     text-transform: uppercase;
+  }
+
+  .course p {
+    /*font-size: 24px;*/
+    font-size: 0.52em;
+    /*line-height: 28px;*/
+    /*line-height: 0.6em;*/
+    margin-top: 38px;
   }
 
 
@@ -1097,12 +1109,6 @@ header {
 
   .third h3 {
     margin-top: 82px;
-  }
-
-  .course p {
-    font-size: 24px;
-    line-height: 28px;
-    margin-top: 38px;
   }
 }
 
@@ -1139,7 +1145,6 @@ header {
   .course__text {
     width: 50%;
   }
-
 
 
   .course h3 {
