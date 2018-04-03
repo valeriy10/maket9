@@ -1062,6 +1062,10 @@ header {
     /*   background-color: #5e42b0; */
   }
 
+  .course {
+    padding-bottom: 1.7em;
+  }
+
   .course__text {
     /*width: 702px;*/
     width: 91.4vw;
@@ -1070,16 +1074,37 @@ header {
 
   .first {
     /*height: 337px;*/
-    height: 43.9vw;
+    /*height: 43.9vw;*/
+  }
+  .twice {
+    /*height: 334px;*/
+    padding-bottom: 1.85em;
   }
 
-  .twice {
-    height: 334px;
+  .twice h3 {
+    /*margin-top: 80px;*/
+    margin-top: 0.68em;
+  }
+  .twice p {
+    margin-top: 0.9em;
   }
 
   .third {
-    height: 369px;
+    /*height: 369px;*/
+    padding-bottom: 1.95em;
   }
+
+  .third h3 {
+    /*margin-top: 82px;*/
+    margin-top: 0.7em;
+    /*padding-bottom: 1.95em;*/
+  }
+
+  .third p {
+    margin-top: 0.9em;
+    line-height: 1.2;
+  }
+
 
   .course h3 {
 /*     font-size: 80px; */
@@ -1102,14 +1127,6 @@ header {
 
   .first h3 {
     margin-top: 91px;
-  }
-
-  .twice h3 {
-    margin-top: 80px;
-  }
-
-  .third h3 {
-    margin-top: 82px;
   }
 }
 
