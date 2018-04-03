@@ -147,7 +147,8 @@ header {
     letter-spacing: 2.6px;
     margin-top: 0;
     margin-left: 0.8em;
-    line-height: 1.3;
+/*     line-height: 1.3; */
+    line-height: 0;
   }
 
   header h1 span {
@@ -1312,7 +1313,6 @@ footer .surface_svg {
     margin-bottom: 0;
 
     /*margin-bottom: 1.9%;*/
-    border: 2px solid green;
   }
 }
 
@@ -1344,7 +1344,7 @@ footer .surface_svg {
     background: url(../images/photofooter768.png) no-repeat;
     background-size: cover;
     /*height: 956px;*/
-    height: 124.5%;
+    height: 124.5%vw;
   }
 
   footer .surface_img {
