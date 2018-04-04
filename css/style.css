@@ -26,7 +26,6 @@ body {
 
 
 
-
 .athlets {
   width: 100%;
   display: flex;
@@ -1062,6 +1061,14 @@ header {
     /*   background-color: #5e42b0; */
   }
 
+  .course:nth-of-type(2) .kv_center {
+    top: 53.5%;
+  }
+
+  .course:nth-of-type(3) .kv_center {
+    top: 51.5%;
+  }
+
   .course {
     padding-bottom: 1.7em;
   }
@@ -1104,7 +1111,12 @@ header {
   }
   .twice {
     /*height: 334px;*/
-    padding-bottom: 1.85em;
+    /*padding-bottom: 1.85em;*/
+  }
+
+  .third {
+    /*height: 369px;*/
+    /*padding-bottom: 1.95em;*/
   }
 
   .twice h3 {
@@ -1113,11 +1125,6 @@ header {
   }
   .twice p {
     margin-top: 0.9em;
-  }
-
-  .third {
-    /*height: 369px;*/
-    padding-bottom: 1.95em;
   }
 
   .third h3 {
@@ -1371,7 +1378,7 @@ footer .surface_svg {
     background: url(../images/photofooter768.png) no-repeat;
     background-size: cover;
     /*height: 956px;*/
-    height: 124.5%vw;
+    height: 124.5vw;
   }
 
   footer .surface_img {
