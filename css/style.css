@@ -25,9 +25,6 @@ body {
 }
 
 
-
-
-
 .athlets {
   width: 100%;
   display: flex;
@@ -172,8 +169,7 @@ header {
   }
 
   .button_appstore {
-/*     width: 280px;
-    max-width: 100%; */
+/*     width: 280px; */
 /*     width: 100%;
     height: 35px;
     margin-bottom: 14px; */
@@ -228,14 +224,12 @@ header {
   }
 
   header h1 span {
-/*     font-size: 64px; */
     display: block;
     margin-left: 16%;
     margin-top: 0.2em;
     margin-bottom: 0.1em;
     padding: 0;
   }
-
 
   .panel_buttons {
     justify-content: center;
@@ -385,7 +379,6 @@ header {
   .button_appstore_text {
     width: 90%;
     margin-top: 1.2em;
-
   }
 
   .apple1 {
@@ -704,9 +697,9 @@ header {
   .athlets h2 {
     font-size: 3em;
     margin-top: 0.25em;
-    /*margin-left: 0.46em;*/
     margin-bottom: 0.208em;
     letter-spacing: 1px;
+    /*margin-left: 0.46em;*/
     /*margin-top: 25px;
     font-size: 5.5em;
     line-height: 35px;*/
@@ -715,10 +708,10 @@ header {
   .athlets h3 {
     font-size: 2.8em;
     font-size: 1.8em;
-    /*margin-left: 1.5em;*/
     margin-top: 0.6em;
     margin-bottom: 0.7em;
     letter-spacing: 1px;
+    /*margin-left: 1.5em;*/
   }
 
   .athlets span {
@@ -727,9 +720,6 @@ header {
     /*margin-left: 1.3em;*/
     letter-spacing: 0.2px;
   }
-
-
-
 
 
 
@@ -778,11 +768,11 @@ header {
     font-size: 6vw;
   }
 
+  /*begin blok dlya soderjimogo*/
   .container {
     /*width: 702px;*/
     width: 91.4vw;
     margin: 0 auto;
-    /*border: 2px solid green;*/
   }
   /*end blok dlya soderjimogo*/
 
@@ -832,17 +822,12 @@ header {
     letter-spacing: 1px;
   }
 
-  h3 img {
-    /*padding-right: 1.69vw;*/
-    /*padding-right: 30px;*/
-  }
-
   .athlets span {
+    /*width: 90%;*/
     font-size: 0.35em;
     /*margin-left: 0.4em;*/
     margin-top: 1.2em;
     letter-spacing: 0.7px;
-    /*width: 90%;*/
     line-height: 1.8;
   }
 
@@ -1362,7 +1347,7 @@ footer .surface_svg {
     background: url(../images/photofooter768.png) no-repeat;
     background-size: cover;
     /*height: 956px;*/
-    height: 124.5%vw;
+    height: 124.5vw;
   }
 
   footer .surface_img {
