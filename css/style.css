@@ -24,6 +24,8 @@ body {
   margin: 0;
 }
 
+
+
 .athlets {
   width: 100%;
   display: flex;
@@ -53,7 +55,6 @@ h1, h2, h3 {
     max-width: 960px;
   }
 }
-
 
 
 
@@ -417,8 +418,8 @@ header {
 .athlets_white_mobile {
   display: flex;
   flex-direction: row-rewerse;
-  width: 100%;
   position: relative;
+  width: 100%;
   height: 174px;
   background-color: white;
 }
@@ -427,7 +428,7 @@ header {
   display: flex;
   flex-direction: row-rewerse;
   width: 100%;
-  height: 231px;
+  /*height: 231px;*/
   background-color: white;
 }
 
@@ -445,7 +446,6 @@ header {
   flex-direction: row-rewerse;
   width: 100%;
   /*margin-right: 92px;*/
-  /*border: 2px solid green;*/
 }
 
 .athlets_grey {
@@ -477,10 +477,6 @@ header {
   color: #c1c1c1;
   text-transform: uppercase;
   font-size: 1.7em;
-}
-
-.athlets span {
-  display: block;
 }
 
 .athlets_blue span {
@@ -631,13 +627,15 @@ header {
     /*top: 80px;*/
     top: 25%;
     left: calc(50% - 86px);
-    /*width: 60.5vw;*/
+    width: 60.5vw;
     min-height: 1px;
   }
   .player_preview {
     /*top: 85px;*/
     top: 25.9%;
     left: calc(50% - 156px);
+    width: 94.4vw;
+    min-height: 1px;
   }
 
   .athlets_middle, .athlets_middle_text {
@@ -660,7 +658,7 @@ header {
     background-color: #fafafa;
     /*height: 213px;*/
     padding-top: 3.2em;
-    margin-top: -3.35em;
+    /*margin-top: -3.35em;*/
   }
 
   .athlets_grey {
@@ -702,7 +700,7 @@ header {
     font-size: 3em;
     margin-top: 0.25em;
     /*margin-left: 0.46em;*/
-    margin-bottom: 0.208em;
+    margin-bottom: 0.2em;
     letter-spacing: 1px;
     /*margin-top: 25px;
     font-size: 5.5em;
@@ -710,7 +708,7 @@ header {
   }
 
   .athlets h3 {
-    font-size: 2.8em;
+    /*font-size: 2.8em;*/
     font-size: 1.8em;
     /*margin-left: 1.5em;*/
     margin-top: 0.6em;
@@ -738,9 +736,9 @@ header {
     font-size: 3.1em;
   }
   .basket .athlets_white {
-    padding-top: 3.3em;
+    /*padding-top: 3.3em;*/
+    /*margin-top: -1.4em;*/
     padding-bottom: 3.2em;
-    margin-top: -1.4em;
   }
 
   .basket .athlets_grey {
