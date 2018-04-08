@@ -58,8 +58,6 @@ h1, h2, h3 {
 
 
 
-
-
 header {
   display: flex;
   flex-direction: column;
@@ -460,6 +458,11 @@ header {
   /*height: 297px;*/
 }
 
+
+.basket .athlets_blue {
+  background-color: #0a0e34;
+}
+
 /*.athlets_white_mobile h2, .athlets_white div, .athlets_grey div, .athlets_blue div {
   margin-left: auto;
 }*/
@@ -718,7 +721,7 @@ header {
     /*margin-left: 1.5em;*/
     margin-top: 0.6em;
     margin-bottom: 0.7em;
-    letter-spacing: 1px;
+    /*letter-spacing: 1px;*/
   }
 
   .athlets span {
