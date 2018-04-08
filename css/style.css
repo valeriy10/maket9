@@ -26,7 +26,6 @@ body {
 
 
 
-
 .athlets {
   width: 100%;
   display: flex;
@@ -627,14 +626,16 @@ header {
   .athlets_preview {
     /*top: 80px;*/
     top: 25%;
-    left: calc(50% - 86px);
+    /*left: calc(50% - 86px);*/
+    left: 22.2%;
     width: 60.5vw;
     min-height: 1px;
   }
   .player_preview {
     /*top: 85px;*/
     top: 25.9%;
-    left: calc(50% - 156px);
+    /*left: calc(50% - 156px);*/
+    left: 1.6%;
     width: 94.4vw;
     min-height: 1px;
   }
@@ -1430,6 +1431,7 @@ footer .surface_svg {
     width: 26.9%;
     margin-bottom: 0.25em;
   }
+  
 
 
 /* .label_footer {
