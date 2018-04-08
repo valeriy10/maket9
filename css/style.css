@@ -25,6 +25,7 @@ body {
 }
 
 
+
 .athlets {
   width: 100%;
   display: flex;
@@ -806,13 +807,13 @@ header {
     width: 43.6vw;
     /*left: -21%;*/
     left: 0;
-    top: 12%;
+    top: 12.2vw;
   }
 
   .player_preview {
     width: 56.8vw;
     right: 0;
-    top: 12%;
+    top: 8.1vw;
   }
 
   .athlets h2 {
