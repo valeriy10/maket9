@@ -26,11 +26,6 @@ body {
 
 
 
-
-
-
-
-
 .athlets {
   width: 100%;
   display: flex;
@@ -525,7 +520,7 @@ header {
 
   .player_preview {
     width: 51.5vw;
-    top: -3%;
+    top: -14%;
     right: 6.5%;
   }
 
@@ -839,6 +834,10 @@ header {
     margin-top: 1.4em;
     margin-bottom: 0;
     letter-spacing: 1px;
+  }
+
+  .athlets_grey h3, .athlets_blue h3 {
+    margin-top: 0;
   }
 
   .athlets span {
