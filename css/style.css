@@ -15,7 +15,8 @@
   url('../fonts/OpenSans-Bold.ttf') format('woff');  
   font-weight: bold;
   font-style: normal;     
-} 
+}
+
 
 
 body {
@@ -23,7 +24,6 @@ body {
   padding: 0;
   margin: 0;
 }
-
 
 
 
@@ -1305,9 +1305,10 @@ footer .surface_svg {
 
 
   footer .surface_img {
-    margin-top: 2.7em;
-    width: 17vw;
-    height: 17.5vw;
+    margin-top: 6.18em;
+    margin-bottom: 1.82em;
+    width: 22.5vw;
+    height: 22.5vw;
   }
 
   footer .surface_svg {
@@ -1316,33 +1317,32 @@ footer .surface_svg {
   }
 
   footer h2 {
-    font-size: 1.7em;
-    margin-bottom: 0;
-    letter-spacing: 5.5px;
-    margin-top: 0.85em;
+    font-size: 2em;
+    margin-bottom: 0.1em;
+    letter-spacing: 1.9px;
+    /*margin-top: 0.85em;*/
   }
 
   footer p {
     text-transform: uppercase;
-    margin-top: 0.2em;
-    font-size: 0.75em;
-    letter-spacing: 1px;
+    font-size: 0.87em;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5.3em;
+    letter-spacing: 0.5px;
   }
 
   footer .panel_buttons {
-    margin-top: 5.45em;
-    margin-bottom: 1.3em;
+    /*margin-top: 5.45em;*/
+    margin-bottom: 2.4em;
     width: 100%;
   }
 
   footer .icon1 {
     /*width: 26.9%;*/
-    /*margin-bottom: 0.25em;*/
     width: 41%;
-    margin-top: 0;
-    margin-bottom: 0;
-
-    /*margin-bottom: 1.9%;*/
+    /*margin-top: 0;*/
+    margin-bottom: 0.38em;
   }
 }
 
