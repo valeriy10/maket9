@@ -15,8 +15,7 @@
   url('../fonts/OpenSans-Bold.ttf') format('woff');  
   font-weight: bold;
   font-style: normal;     
-}
-
+} 
 
 
 body {
@@ -999,9 +998,19 @@ header {
     /*width: 70px;*/
     /*height: 70px;*/
     width: 21.9vw;
-    left: 6.3vw;
+    /*left: 6.3vw;
     top: 91.5vw;
-    top: 28.5vw;
+    top: 28.5vw;*/
+    left: 6.7%;
+    top: 52%;
+  }
+
+  .course:nth-of-type(2) .kv_center {
+    top: 53.3%;
+  }
+
+  .course:nth-of-type(3) .kv_center {
+    top: 50.5%;
   }
 
   .course__text {
