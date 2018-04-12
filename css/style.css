@@ -26,9 +26,6 @@ body {
 
 
 
-
-
-
 .athlets {
   width: 100%;
   display: flex;
@@ -527,11 +524,16 @@ header {
     right: 6.5%;
   }
 
+  .athlets_white {
+    padding-bottom: 1.5em;
+  }
+
 
   .athlets h2 {
     /*margin-top: 96px;*/
-    margin-top: 1.25em;
     font-size: 4.1em;
+    margin-top: 1.25em;
+    line-height: 1.15;
   }
 
   .athlets h3 {
@@ -1036,6 +1038,7 @@ header {
 
   .course h3 {
     margin-top: 0.9em;
+    /*margin-left: 0.6em;*/
     margin-bottom: 0.5em;
     font-size: 1.8em;
     letter-spacing: 1px;
@@ -1103,6 +1106,7 @@ header {
 
 
   .course h3 {
+/*     font-size: 80px; */
     /*line-height: 60px;*/
     line-height: 1.3em;
     /*font-size: 58px;*/
@@ -1176,6 +1180,7 @@ header {
     padding-bottom: 0;
     margin-bottom: -0.22em;
     /*font-size: 2.35em;*/
+
   }
 
   .course:nth-child(odd) {
@@ -1269,7 +1274,8 @@ footer {
 footer h2 {
   text-align: center;
   font-size: 2rem;
-  /*letter-spacing: 1.8px; */
+  /*letter-spacing: 1.8px;
+  margin-bottom: 0.1rem;*/
 /*   margin-top: 229px; */
 }
 
@@ -1327,8 +1333,8 @@ footer .surface_svg {
 
   footer h2 {
     font-size: 2em;
-    letter-spacing: 1.9px;
     margin-bottom: 0.1em;
+    letter-spacing: 1.9px;
     /*margin-top: 0.85em;*/
   }
 
@@ -1348,6 +1354,7 @@ footer .surface_svg {
   }
 
   footer .icon1 {
+    /*width: 26.9%;*/
     width: 41%;
     /*margin-top: 0;*/
     margin-bottom: 0.38em;
@@ -1418,6 +1425,20 @@ footer .surface_svg {
     margin-top: inherit;
     margin-bottom: 0.25em;
   }
+
+
+/* .label_footer {
+    flex-direction: column;
+    margin-top: 126px;
+  }
+
+  .label_footer picture {
+    margin-bottom: 82px;
+  }
+
+  .iconf {
+    margin-bottom: 21px;
+  } */
 }
 
 
