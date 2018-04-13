@@ -495,7 +495,7 @@ header {
   }
   /*end blok dlya soderjimogo*/
   
-  .pic_number {
+  .pic_number img {
     position: relative;
     width: 3vw;
   }
