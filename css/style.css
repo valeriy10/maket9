@@ -20,8 +20,6 @@
 
 
 
-
-
 body {
   font-family: 'Open Sans', sans-serif;
   padding: 0;
@@ -547,6 +545,7 @@ header {
     font-size: 1.9em;
     /*margin-left: 2.2em;*/
     margin-top: 2em;
+    margin-bottom: 0;
     letter-spacing: 1.5px;
   }
 
@@ -559,6 +558,11 @@ header {
     letter-spacing: 1.4px;
   }
 
+  .athlets_grey {
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+  }
+
   .athlets_grey h3 {
     margin-top: 1.2em;
   }
@@ -567,10 +571,11 @@ header {
     font-size: 1.1em;
     /*margin-left: 2.2em;*/
     margin-top: 0.8em;
-    letter-spacing: 0.6px;
+    letter-spacing: 0.4px;
     line-height: 1.4;
     /*width: 75%;*/
   }
+
 
   .athlets_blue h3 {
     margin-top: 1.9em;
@@ -641,6 +646,10 @@ header {
     /*border: 2px solid green;*/
   }
   /*end blok dlya soderjimogo*/
+
+  .desktop1 {
+    display: none;
+  }
 
   .athlets_preview {
     /*top: 80px;*/
@@ -797,6 +806,10 @@ header {
   }
 
   .mobile1 {
+    display: none;
+  }
+
+  .desktop1 {
     display: none;
   }
 
