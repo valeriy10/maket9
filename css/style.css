@@ -20,7 +20,6 @@
 
 
 
-
 body {
   font-family: 'Open Sans', sans-serif;
   padding: 0;
@@ -658,6 +657,11 @@ header {
     min-height: 1px;
   }
 
+  .pic_number img {
+    width: 5.3vw;
+    height: 5.6vw;
+  }
+
   .athlets_middle, .athlets_middle_text {
     width: 100%;
   }
@@ -804,6 +808,11 @@ header {
 
   .athlets_middle, .athlets_middle_text {
     width: 62%;
+  }
+
+  .pic_number img {
+    width: 2.9vw;
+    height: 3.25vw;
   }
 
   .player {
