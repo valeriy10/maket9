@@ -20,7 +20,6 @@
 
 
 
-
 body {
   font-family: 'Open Sans', sans-serif;
   padding: 0;
@@ -492,7 +491,8 @@ header {
   .container {
     /*width: 1400px;*/
     width: 72.9vw;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
+    margin-right: 10.2vw;
     /*border: 2px solid green;*/
   }
   /*end blok dlya soderjimogo*/
@@ -515,7 +515,8 @@ header {
   .athlets_preview {
     width: 33.8vw;
     top: -7.5%;
-    left: 15.3%;
+    /*left: 15.3%;*/
+    left: 16.9vw;
   }
 
   .player_preview {
