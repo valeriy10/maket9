@@ -20,7 +20,6 @@
 
 
 
-
 body {
   font-family: 'Open Sans', sans-serif;
   padding: 0;
@@ -1536,6 +1535,8 @@ footer .surface_svg {
     letter-spacing: 2px;
   }
 
+  
+  
 
   footer .panel_buttons {
     justify-content: center;
