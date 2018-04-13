@@ -482,10 +482,6 @@ header {
   color: #ffffff;
 }
 
-.pic_number {
-  width: 1%;
-}
-
 
 
 @media (min-width: 961px) {
@@ -497,6 +493,10 @@ header {
     /*border: 2px solid green;*/
   }
   /*end blok dlya soderjimogo*/
+  
+  .pic_number {
+    width: 4vw;
+  }
 
   .athlets_middle, .athlets_middle_text {
     width: 47.6%;
