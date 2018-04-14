@@ -20,8 +20,6 @@
 
 
 
-
-
 body {
   font-family: 'Open Sans', sans-serif;
   padding: 0;
@@ -387,7 +385,7 @@ header {
 
   .button_appstore_text {
     width: 90%;
-    margin-top: 1em;
+    margin-top: 0.9em;
     margin-left: 2vw;
   }
 
