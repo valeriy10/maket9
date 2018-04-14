@@ -20,7 +20,6 @@
 
 
 
-
 body {
   font-family: 'Open Sans', sans-serif;
   padding: 0;
@@ -381,7 +380,7 @@ header {
 
   .button_appstore span {
     display: block;
-    padding-top: 1em;
+    padding-top: 0.75em;
   }
 
   .button_appstore_text {
