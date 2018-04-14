@@ -456,6 +456,8 @@ header {
 
 .basket .athlets_blue {
   background-color: #0a0e34;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 /*.athlets_white_mobile h2, .athlets_white div, .athlets_grey div, .athlets_blue div {
@@ -1447,7 +1449,6 @@ footer .surface_svg {
     height: 10vw;
   }
 
-  
   footer .icon1 {
     width: 26.9%;
     margin-top: inherit;
