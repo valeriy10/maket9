@@ -20,7 +20,6 @@
 
 
 
-
 body {
   font-family: 'Open Sans', sans-serif;
   padding: 0;
@@ -544,7 +543,6 @@ header {
     /*font-size: 1.88em;*/
     /*   1.7 */
     font-size: 1.9em;
-    /*margin-left: 2.2em;*/
     margin-top: 2em;
     margin-bottom: 0;
     letter-spacing: 1.5px;
@@ -553,10 +551,9 @@ header {
   .athlets span {
     display: block;
     font-size: 1em;
-    /*margin-left: 2.5em;*/
     margin-top: 0.7em;
     margin-bottom: 1.5em;
-    letter-spacing: 1.4px;
+    letter-spacing: 0.6px;
   }
 
   .athlets_grey {
@@ -570,7 +567,6 @@ header {
 
   .athlets_grey span {
     font-size: 1.1em;
-    /*margin-left: 2.2em;*/
     margin-top: 0.8em;
     letter-spacing: 0.4px;
     line-height: 1.4;
