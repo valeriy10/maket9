@@ -20,8 +20,6 @@
 
 
 
-
-
 body {
   font-family: 'Open Sans', sans-serif;
   padding: 0;
@@ -105,9 +103,9 @@ header {
   text-transform: uppercase;
   text-decoration: none;
   color: white;
-  border-radius: 48px;
+  border-radius: 1.98vw;
   background-color: #5e42b0;
-  box-shadow: 8px 13.856px 24px 0px rgb( 10, 14, 52 );
+  box-shadow: 8px 13.85px 24px 0px rgb( 10, 14, 52 );
 }
 
 .button_appstore:hover {
