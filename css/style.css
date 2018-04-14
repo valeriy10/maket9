@@ -20,8 +20,6 @@
 
 
 
-
-
 body {
   font-family: 'Open Sans', sans-serif;
   padding: 0;
@@ -1545,8 +1543,8 @@ footer .surface_svg {
 
   footer .button_appstore {
     margin: 0;
-    margin-right: 25px;
-    margin-left: 25px;
+    margin-right: 1.3em;
+    margin-left: 1.3em;
   }
 
   .footer icon1 {
