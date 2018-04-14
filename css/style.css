@@ -389,6 +389,10 @@ header {
     margin-left: 2vw;
   }
 
+  .button_appstore:last-child .button_appstore_text {
+    margin-left: 3vw;
+  }
+
   .apple1 {
     width: 2.14vw;
     height: 2.5vw;
@@ -1556,4 +1560,3 @@ footer .surface_svg {
     /*   51 */
   }
 }
-
