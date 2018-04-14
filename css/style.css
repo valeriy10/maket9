@@ -18,6 +18,8 @@
 }
 
 
+
+
 body {
   font-family: 'Open Sans', sans-serif;
   padding: 0;
@@ -84,7 +86,7 @@ header {
 
 .apple1 {
   float: left;
-  margin-right: 10px;
+  /*margin-right: 10px;*/
   fill: #ffffff;
 }
 
@@ -198,6 +200,7 @@ header {
     width: 7vw;
     height: 7vw;
     margin-left: 2px;
+    margin-right: 2.2vw;
   }
 }
 /* end header mobile */
@@ -394,7 +397,7 @@ header {
   .apple1 {
     width: 2.14vw;
     height: 2.5vw;
-/*   margin-right: 25px; */
+    margin-right: 1.2vw;
 /*     margin-right: 10px; */
   }
 
