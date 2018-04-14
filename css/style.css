@@ -358,8 +358,8 @@ header {
     justify-content: space-around;
     width: 36%;
     padding-bottom: 0;
-    margin-top: 10.5em;
-    margin-bottom: 5.8em;
+    margin-top: auto;
+    margin-bottom: 5.73em;
     margin-left: auto;
     margin-right: auto;
   }
@@ -377,6 +377,10 @@ header {
   height: 77px; */
   }
 
+  .button_appstore span {
+    padding-top: 1em;
+  }
+
   .button_appstore_text {
     width: 90%;
     margin-top: 1.2em;
@@ -384,7 +388,7 @@ header {
   }
 
   .apple1 {
-    width: 2.19vw;
+    width: 2.14vw;
     height: 2.5vw;
 /*   margin-right: 25px; */
 /*     margin-right: 10px; */
@@ -393,10 +397,6 @@ header {
   .button_appstore span, .button_appstore strong {
     margin-left: 0;
     letter-spacing: 1px;
-  }
-
-  .button_appstore span {
-    padding-top: 1em;
   }
 }
 
@@ -1535,8 +1535,6 @@ footer .surface_svg {
     letter-spacing: 2px;
   }
 
-  
-  
 
   footer .panel_buttons {
     justify-content: center;
